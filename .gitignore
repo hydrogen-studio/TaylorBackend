@@ -4,3 +4,4 @@ chatbot
 node_modules
 .dccache
 .env
+mlbackend/dist
