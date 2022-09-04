@@ -3,6 +3,7 @@ import * as http from "http";
 import * as WebSocket from "ws";
 import * as fs from "fs";
 import * as dotenv from 'dotenv'
+import * as path from "path";
 
 import { messageStructure, intentStructure } from "./utils/types";
 import { getRandomInt } from "./utils/helpers";
@@ -12,10 +13,25 @@ const Client = require("node-rest-client").Client;
 const client = new Client();
 
 const CHATBOT_URL = "http://127.0.0.1:5001/college-ml/api/v1.0/assistant";
-
 const list_of_intents = JSON.parse(fs.readFileSync("intents.json", "utf8"));
 
+interface ExtWebSocket extends WebSocket {
+  isAlive: boolean;
+}
+
 const app = express();
+
+app.set('views', path.join(__dirname, 'views'));
+app.set( "view engine", "ejs" );
+
+
+app.use(express.static("Static"));
+app.use("/css", express.static(__dirname + "Static/styles"));
+
+
+app.get("", (req, res) => {
+  res.render("index");
+});
 
 //initialize a simple http server
 // TODO: it should use HTTPS instead
@@ -23,10 +39,6 @@ const server = http.createServer(app);
 
 //initialize the WebSocket server instance
 const wss = new WebSocket.Server({ server });
-
-interface ExtWebSocket extends WebSocket {
-  isAlive: boolean;
-}
 
 wss.on("connection", (socket: WebSocket) => {
   const extSocket = socket as ExtWebSocket;
