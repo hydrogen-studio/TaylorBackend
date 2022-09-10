@@ -7,6 +7,8 @@ import * as path from "path";
 
 // Pages
 import * as homeController from "./controllers/home";
+import * as policiesController from "./controllers/policies";
+import * as guidesController from "./controllers/guides";
 
 import { messageStructure, intentStructure } from "./utils/types";
 import { getRandomInt } from "./utils/helpers";
@@ -33,6 +35,16 @@ app.use(
 );
 
 app.get("/", homeController.index);
+
+app.get("/privacy", policiesController.privacy);
+
+app.get("/tos", policiesController.terms);
+
+app.get("/app-guide", guidesController.appGuide);
+
+app.get("/highschool-guide", guidesController.highSchoolGuide);
+
+app.get("/collegecore-plus-guide", guidesController.collegeCorePlusGuide);
 
 //initialize a simple http server
 // TODO: it should use HTTPS instead
