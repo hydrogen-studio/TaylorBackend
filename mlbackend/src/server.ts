@@ -2,13 +2,16 @@ import * as express from "express";
 import * as http from "http";
 import * as WebSocket from "ws";
 import * as fs from "fs";
-import * as dotenv from 'dotenv'
+import * as dotenv from "dotenv";
 import * as path from "path";
+
+// Pages
+import * as homeController from "./controllers/home";
 
 import { messageStructure, intentStructure } from "./utils/types";
 import { getRandomInt } from "./utils/helpers";
 
-dotenv.config()
+dotenv.config();
 const Client = require("node-rest-client").Client;
 const client = new Client();
 
@@ -21,17 +24,15 @@ interface ExtWebSocket extends WebSocket {
 
 const app = express();
 
-app.set('views', path.join(__dirname, 'views'));
-app.set( "view engine", "ejs" );
+app.set("views", path.join(__dirname, "views"));
+app.set("view engine", "ejs");
 
+// Example: styles/main.css
+app.use(
+  express.static(path.join(__dirname, "static"), { maxAge: 31557600000 })
+);
 
-app.use(express.static("Static"));
-app.use("/css", express.static(__dirname + "Static/styles"));
-
-
-app.get("", (req, res) => {
-  res.render("index");
-});
+app.get("/", homeController.index);
 
 //initialize a simple http server
 // TODO: it should use HTTPS instead
@@ -41,6 +42,7 @@ const server = http.createServer(app);
 const wss = new WebSocket.Server({ server });
 
 wss.on("connection", (socket: WebSocket) => {
+  // // console.log("Connecting...")
   const extSocket = socket as ExtWebSocket;
 
   extSocket.isAlive = true;
@@ -109,7 +111,7 @@ wss.on("connection", (socket: WebSocket) => {
         msg: responseMsg,
         context: responseContext,
         botParams: botParamsValue,
-      }
+      };
       const responseString = JSON.stringify(respondData);
       socket.send(responseString);
     }
