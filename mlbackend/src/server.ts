@@ -12,6 +12,7 @@ import * as guidesController from "./controllers/guides";
 
 import { messageStructure, intentStructure } from "./utils/types";
 import { getRandomInt } from "./utils/helpers";
+import handleError from "./middleware/error-handler.middleware";
 
 dotenv.config();
 const Client = require("node-rest-client").Client;
@@ -34,6 +35,8 @@ app.use(
   express.static(path.join(__dirname, "static"), { maxAge: 31557600000 })
 );
 
+app.use(express.json());       // to support JSON-encoded bodies
+
 app.get("/", homeController.index);
 
 app.get("/privacy", policiesController.privacy);
@@ -46,62 +49,23 @@ app.get("/highschool-guide", guidesController.highSchoolGuide);
 
 app.get("/collegecore-plus-guide", guidesController.collegeCorePlusGuide);
 
-//initialize a simple http server
-// TODO: it should use HTTPS instead
-const server = http.createServer(app);
+app.post("/api/v2/college_core_chatbot", function (req, res) {
+  console.log(req.body);
 
-//initialize the WebSocket server instance
-const wss = new WebSocket.Server({ server });
-
-wss.on("connection", (socket: WebSocket) => {
-  // // console.log("Connecting...")
-  const extSocket = socket as ExtWebSocket;
-
-  extSocket.isAlive = true;
-
-  socket.on("pong", () => {
-    extSocket.isAlive = true;
-  });
-
-  socket.on("message", async (message: string) => {
-    const data: messageStructure = JSON.parse(message);
-    if (data.context === undefined || data.context === "") {
-      // out of context
-      let args = {
-        data: { sentence: data.msg },
-        headers: { "Content-Type": "application/json" },
-      };
-      client.post(CHATBOT_URL, args, (data: any, response: any) => {
-        let intents: intentStructure[] = list_of_intents.intents;
-        let responseMsg: string = "";
-        let responseContext: string = "";
-
-        for (let i = 0; i < intents.length; i++) {
-          if (intents[i].tag === data[0].intent) {
-            let responseId = getRandomInt(0, intents[i].responses.length - 1);
-            responseMsg = intents[i].responses[responseId];
-            responseContext = intents[i].context[0];
-            break;
-          }
-        }
-
-        const respondData = {
-          intent: data[0].intent,
-          msg: responseMsg,
-          context: responseContext,
-        };
-        const responseString = JSON.stringify(respondData);
-
-        socket.send(responseString);
-      });
-    } else {
+  const data : messageStructure = req.body;
+  if (data.context === undefined || data.context === "") {
+    // out of context
+    let args = {
+      data: { sentence: data.msg },
+      headers: { "Content-Type": "application/json" },
+    };
+    client.post(CHATBOT_URL, args, (data: any, response: any) => {
       let intents: intentStructure[] = list_of_intents.intents;
       let responseMsg: string = "";
       let responseContext: string = "";
 
-      // Get Response
       for (let i = 0; i < intents.length; i++) {
-        if (intents[i].tag === data.context) {
+        if (intents[i].tag === data[0].intent) {
           let responseId = getRandomInt(0, intents[i].responses.length - 1);
           responseMsg = intents[i].responses[responseId];
           responseContext = intents[i].context[0];
@@ -109,46 +73,52 @@ wss.on("connection", (socket: WebSocket) => {
         }
       }
 
-      // console.log("Intent: " + data.context);
-
-      let botParamsValue: string = "";
-      if (data.botParams) {
-        botParamsValue = data.botParams + " | " + data.msg;
-      } else {
-        botParamsValue = data.msg;
-      }
-
       const respondData = {
-        intent: data.context,
+        intent: data[0].intent,
         msg: responseMsg,
         context: responseContext,
-        botParams: botParamsValue,
       };
-      const responseString = JSON.stringify(respondData);
-      socket.send(responseString);
+      res.send(respondData);
+    });
+  } else {
+    let intents: intentStructure[] = list_of_intents.intents;
+    let responseMsg: string = "";
+    let responseContext: string = "";
+
+    // Get Response
+    for (let i = 0; i < intents.length; i++) {
+      if (intents[i].tag === data.context) {
+        let responseId = getRandomInt(0, intents[i].responses.length - 1);
+        responseMsg = intents[i].responses[responseId];
+        responseContext = intents[i].context[0];
+        break;
+      }
     }
 
-    // socket.send(`Hello, you sent -> ${data.msg}`);
-  });
+    // console.log("Intent: " + data.context);
 
-  socket.send("Hi there, I am a WebSocket server");
+    let botParamsValue: string = "";
+    if (data.botParams) {
+      botParamsValue = data.botParams + " | " + data.msg;
+    } else {
+      botParamsValue = data.msg;
+    }
 
-  socket.on("error", (err) => {
-    console.warn(`Client disconnected - reason: ${err}`);
-  });
+    const respondData = {
+      intent: data.context,
+      msg: responseMsg,
+      context: responseContext,
+      botParams: botParamsValue,
+    };
+    res.send(respondData);
+  }
 });
 
-setInterval(() => {
-  // TODO: not the best method
-  wss.clients.forEach((ws: WebSocket) => {
-    const extWs = ws as ExtWebSocket;
-    if (!extWs.isAlive) return ws.terminate();
-    extWs.isAlive = false;
-    ws.ping(null, undefined);
-  });
-}, 10000);
+app.use(handleError);
+
 
 //start our server
-server.listen(process.env.PORT || 8999, () => {
-  console.log(`Server started on`, server.address());
+const PORT = process.env.PORT || 8999;
+app.listen(PORT, () => {
+  console.log(`Server started on`, PORT);
 });
