@@ -21,6 +21,7 @@ const client = new Client();
 const CHATBOT_URL = "http://127.0.0.1:5001/college-ml/api/v1.0/assistant";
 const list_of_intents = JSON.parse(fs.readFileSync("intents.json", "utf8"));
 
+
 interface ExtWebSocket extends WebSocket {
   isAlive: boolean;
 }
@@ -95,6 +96,7 @@ app.post("/api/v2/college_core_chatbot", function (req, res) {
       }
     }
 
+
     // console.log("Intent: " + data.context);
 
     let botParamsValue: string = "";
@@ -104,12 +106,25 @@ app.post("/api/v2/college_core_chatbot", function (req, res) {
       botParamsValue = data.msg;
     }
 
-    const respondData = {
+    let respondData = {
       intent: data.context,
       msg: responseMsg,
       context: responseContext,
       botParams: botParamsValue,
     };
+
+    
+    if(data.context == "search_hospital_by_type"){
+      let params = botParamsValue.split(" | ")
+
+      respondData = {
+        intent: data.context,
+        msg: "This Hospital Does not Exist",
+        context: "",
+        botParams: botParamsValue,
+      };
+    }
+
     res.send(respondData);
   }
 });
