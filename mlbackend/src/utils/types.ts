@@ -10,3 +10,10 @@ export interface intentStructure {
     responses: Array<string>,
     context: Array<string>
 }
+
+export interface responseStructure {
+    intent?: string,
+    msg: string,
+    context: string,
+    botParams: string,
+  }

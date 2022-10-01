@@ -3,154 +3,96 @@
     {
       "tag": "greeting",
       "patterns": [
-        "Hi there",
+        "Hi",
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "Whats up",
+        "Hey",
+        "greetings",
+        "good morning",
+        "good afternoon",
+        "good night"
+      ],
+      "static": true,
+      "responses": [
+        "Hello! How can I help you?",
+        "Hello! My name is Taylor, how can I help you?",
+        "How are you?",
+        "Hello! By The Way, you could listen to Taylor Swift in your freetime!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "Search",
+      "patterns": [
+        "How do I find my dream college?",
+        "How do I search for a college",
+        "which college should I apply to?",
+        "what are the colleges that are test-optional?",
+        "what colleges have a major of Computer Science?"
       ],
       "responses": [
-        "Hello, thanks for asking",
-        "Good to see you again",
-        "Hi there, how can I help?"
+        "Please provide the hospital location"
+      ],
+      "static": false,
+      "context": ["search_by_location"]
+    },
+    {
+      "tag": "search_by_location",
+      "patterns": [],
+      "static": false,
+      "responses": [
+        "What state do you want to college?"
+      ],
+      "context": ["search_by_major"]
+    },
+    {
+      "tag": "search_by_major",
+      "patterns": [],
+      "static": false,
+      "responses": [
+        "What major do you want to study?"
       ],
       "context": [""]
     },
     {
-      "tag": "goodbye",
+      "tag": "collegeChoice",
       "patterns": [
-        "Bye",
-        "See you later",
-        "Goodbye",
-        "Nice chatting to you, bye",
-        "Till next time"
+        "which college could I get into with my current GPA?",
+        "which in-state college that I am most likely to be admitted into?",
+        "what are the colleges that I should go to if I want to become a pilot?",
+        "what is the perfect college for me?"
       ],
       "responses": [
-        "See you!",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "Please provide the hospital location"
       ],
+      "static": false,
       "context": [""]
     },
     {
-      "tag": "thanks",
+      "tag": "eeTaylor",
       "patterns": [
-        "Thanks",
-        "Thank you",
-        "That's helpful",
-        "Awesome, thanks",
-        "Thanks for helping me"
+        "13",
+        "All Too Well",
+        "Taylor Swift"
       ],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"],
-      "context": [""]
-    },
-    {
-      "tag": "noanswer",
-      "patterns": [],
+      "static": true,
       "responses": [
-        "Sorry, can't understand you",
-        "Please give me more info",
-        "Not sure I understand"
+        "GO TAYLOR!",
+        "Don't listen to the stolen versions of music if possible!",
+        "Kanye Sucks!"
       ],
       "context": [""]
     },
     {
-      "tag": "options",
-      "patterns": [
-        "How you could help me?",
-        "What you can do?",
-        "What help you provide?",
-        "How you can be helpful?",
-        "What support is offered"
-      ],
+      "tag": "search_by_",
+      "patterns": [],
+      "static": false,
       "responses": [
-        "I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies",
-        "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"
+        "What is your targeted ranking of your college?"
       ],
-      "context": [""]
-    },
-    {
-      "tag": "adverse_drug",
-      "patterns": [
-        "How to check Adverse drug reaction?",
-        "Open adverse drugs module",
-        "Give me a list of drugs causing adverse behavior",
-        "List all drugs suitable for patient with adverse reaction",
-        "Which drugs dont have adverse reaction?"
-      ],
-      "responses": ["Navigating to Adverse drug reaction module"],
-      "context": [""]
-    },
-    {
-      "tag": "blood_pressure",
-      "patterns": [
-        "Open blood pressure module",
-        "Task related to blood pressure",
-        "Blood pressure data entry",
-        "I want to log blood pressure results",
-        "Blood pressure data management"
-      ],
-      "responses": ["Navigating to Blood Pressure module"],
-      "context": [""]
-    },
-    {
-      "tag": "blood_pressure_search",
-      "patterns": [
-        "I want to search for blood pressure result history",
-        "Blood pressure for patient",
-        "Load patient blood pressure result",
-        "Show blood pressure results for patient",
-        "Find blood pressure results by ID"
-      ],
-      "responses": ["Please provide Patient ID", "Patient ID?"],
-      "context": ["search_blood_pressure_by_patient_id"]
-    },
-    {
-      "tag": "search_blood_pressure_by_patient_id",
-      "patterns": [],
-      "responses": ["Loading Blood pressure result for Patient"],
-      "context": [""]
-    },
-    {
-      "tag": "pharmacy_search",
-      "patterns": [
-        "Find me a pharmacy",
-        "Find pharmacy",
-        "List of pharmacies nearby",
-        "Locate pharmacy",
-        "Search pharmacy"
-      ],
-      "responses": ["Please provide pharmacy name"],
-      "context": ["search_pharmacy_by_name"]
-    },
-    {
-      "tag": "search_pharmacy_by_name",
-      "patterns": [],
-      "responses": ["Loading pharmacy details"],
-      "context": [""]
-    },
-    {
-      "tag": "hospital_search",
-      "patterns": [
-        "Lookup for hospital",
-        "Searching for hospital to transfer patient",
-        "I want to search hospital data",
-        "Hospital lookup for patient",
-        "Looking up hospital details"
-      ],
-      "responses": ["Please provide hospital name or location"],
-      "context": ["search_hospital_by_params"]
-    },
-    {
-      "tag": "search_hospital_by_params",
-      "patterns": [],
-      "responses": ["Please provide hospital type"],
-      "context": ["search_hospital_by_type"]
-    },
-    {
-      "tag": "search_hospital_by_type",
-      "patterns": [],
-      "responses": ["Loading hospital details"],
       "context": [""]
     }
   ]

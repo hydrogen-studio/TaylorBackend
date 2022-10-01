@@ -4,13 +4,14 @@ import * as WebSocket from "ws";
 import * as fs from "fs";
 import * as dotenv from "dotenv";
 import * as path from "path";
+import * as axios from "axios";
 
 // Pages
 import * as homeController from "./controllers/home";
 import * as policiesController from "./controllers/policies";
 import * as guidesController from "./controllers/guides";
 
-import { messageStructure, intentStructure } from "./utils/types";
+import { messageStructure, intentStructure, responseStructure } from "./utils/types";
 import { getRandomInt } from "./utils/helpers";
 import handleError from "./middleware/error-handler.middleware";
 
@@ -106,7 +107,7 @@ app.post("/api/v2/college_core_chatbot", function (req, res) {
       botParamsValue = data.msg;
     }
 
-    let respondData = {
+    let respondData : responseStructure = {
       intent: data.context,
       msg: responseMsg,
       context: responseContext,
@@ -114,22 +115,49 @@ app.post("/api/v2/college_core_chatbot", function (req, res) {
     };
 
     
-    if(data.context == "search_hospital_by_type"){
-      let params = botParamsValue.split(" | ")
-
-      respondData = {
-        intent: data.context,
-        msg: "This Hospital Does not Exist",
-        context: "",
-        botParams: botParamsValue,
-      };
+    if(data.context == "search_by_major"){
+      respondData = searchCollege(botParamsValue, data)
     }
 
-    
+
 
     res.send(respondData);
   }
 });
+
+
+
+function searchCollege(botParamsValue: string, data: messageStructure): responseStructure {
+  let params = botParamsValue.split(" | ")
+
+  const apiKey = process.env.COLLEGE_SEARCH_API_KEY
+  let fields:string[] = []
+
+  let param =  {
+    "api_key" : apiKey,
+    "fields": fields.join(","),
+    "latest.school.state": params[0].toUpperCase(),
+    "per_page": "1"
+  }
+
+  axios.default.get('https://api.data.gov/ed/collegescorecard/v1/schools', {
+    params: param,
+    headers: { "Content-Type": "application/json" }
+  }).then(data => {
+    console.log(data.data)
+  }).catch(e => {
+    console.error(e)
+  });
+
+  return {
+    intent: data.context,
+    msg: "Seaching",
+    context: "",
+    botParams: botParamsValue,
+  };
+}
+
+
 
 app.use(handleError);
 
