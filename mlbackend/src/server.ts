@@ -130,34 +130,62 @@ app.post("/api/v2/college_core_chatbot", function (req, res) {
 function searchCollege(botParamsValue: string, data: messageStructure): responseStructure {
   let params = botParamsValue.split(" | ")
 
-  const apiKey = process.env.COLLEGE_SEARCH_API_KEY
-  let fields:string[] = []
-
-  let param =  {
-    "api_key" : apiKey,
-    "fields": fields.join(","),
-    "latest.school.state": params[0].toUpperCase(),
-    "per_page": "1"
-  }
-
-  axios.default.get('https://api.data.gov/ed/collegescorecard/v1/schools', {
-    params: param,
-    headers: { "Content-Type": "application/json" }
-  }).then(data => {
-    console.log(data.data)
-  }).catch(e => {
-    console.error(e)
-  });
-
-  return {
+  const ithk = {
     intent: data.context,
     msg: "Seaching",
     context: "",
     botParams: botParamsValue,
-  };
+  }
+
+  const apiKey = process.env.COLLEGE_SEARCH_API_KEY
+  // console.log(apiKey)
+  let fields:string[] = ["latest.programs.cip_4_digit", "latest.school"]
+
+  console.log(params)
+  
+  let param =  {
+    "api_key" : apiKey,
+    "fields": fields.join(","),
+    "latest.school.state": params[0].toUpperCase(),
+    "latest.programs.cip_4_digit.credential.title": "Bachelor’s Degree",
+    "per_page": "1"
+  }
+
+  let majorStoring:string[] = [];
+  axios.default.get('https://api.data.gov/ed/collegescorecard/v1/schools', {
+    params: param,
+    headers: { "Content-Type": "application/json" }
+  }).then(data => {
+    let dataRes = data.data;
+    if(!(dataRes.results.length == 0)) {
+      let majors = dataRes.results[0]["latest.programs.cip_4_digit"]
+      for(let i in majors){
+        let current = majors[i];
+        if(searchMajor(current.title.toUpperCase(), params[1].toUpperCase())){
+          majorStoring.push(dataRes.results[0]["latest.school.name"])
+        }
+      }
+
+      ithk["msg"] = majorStoring.join(",")
+      console.log(ithk)
+      return ithk
+    }
+    
+  }).catch(e => {
+    console.error(e)
+  });
+  console.log("Old")
+  console.log(ithk)
+  
+  return ithk;
 }
 
 
+function searchMajor(collegeValue:string, userValue:string):boolean{
+  let search = collegeValue.search(userValue)
+
+  return search != -1
+}
 
 app.use(handleError);
 
