@@ -11,9 +11,12 @@ import * as homeController from "./controllers/home";
 import * as policiesController from "./controllers/policies";
 import * as guidesController from "./controllers/guides";
 
+
 import { messageStructure, intentStructure, responseStructure } from "./utils/types";
 import { getRandomInt } from "./utils/helpers";
 import handleError from "./middleware/error-handler.middleware";
+
+import * as CIP from './utils/CIP.json';
 
 dotenv.config();
 const Client = require("node-rest-client").Client;

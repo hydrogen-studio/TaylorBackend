@@ -1,0 +1,3800 @@
+{
+    "0100": {
+        "CIPFamily": "01",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Agriculture, General.",
+        "CIPDefinition": "Instructional content is defined in code 01.0000.",
+        "CrossReferences": "",
+        "Examples": ""
+    },
+    "0101": {
+        "CIPFamily": "01",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Agricultural Business and Management.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 01.0101 - 01.0199.",
+        "CrossReferences": "",
+        "Examples": ""
+    },
+    "0102": {
+        "CIPFamily": "01",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Agricultural Mechanization.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 01.0201 - 01.0299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Agricultural Systems Management"
+    },
+    "0103": {
+        "CIPFamily": "01",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Agricultural Production Operations.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 01.0301 - 01.0399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Agricultural Irrigation"
+    },
+    "0104": {
+        "CIPFamily": "01",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Agricultural and Food Products Processing.",
+        "CIPDefinition": "Instructional content is defined in code 01.0401.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Viticulture, - Enology"
+    },
+    "0105": {
+        "CIPFamily": "01",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Agricultural and Domestic Animal Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 01.0504 - 01.0599.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Viticulture, - Enology"
+    },
+    "0106": {
+        "CIPFamily": "01",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Applied Horticulture and Horticultural Business Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 01.0601 - 01.0699.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Viticulture, - Enology"
+    },
+    "0107": {
+        "CIPFamily": "01",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "International Agriculture.",
+        "CIPDefinition": "Instructional content is defined in code 01.0701.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Arborist, - Arboriculture"
+    },
+    "0108": {
+        "CIPFamily": "01",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Agricultural Public Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 01.0801 - 01.0899.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Arborist, - Arboriculture"
+    },
+    "0109": {
+        "CIPFamily": "01",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Animal Sciences.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 01.0901 - 01.0999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Arborist, - Arboriculture"
+    },
+    "0110": {
+        "CIPFamily": "01",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Food Science and Technology.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 01.1001 - 01.1099.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Livestock Management, - Meat Science"
+    },
+    "0111": {
+        "CIPFamily": "01",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Plant Sciences.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 01.1101 - 01.1199.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Food Safety"
+    },
+    "0112": {
+        "CIPFamily": "01",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Soil Sciences.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 01.1201 - 01.1299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Pest Management, - Extermination"
+    },
+    "0199": {
+        "CIPFamily": "01",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Agriculture, Agriculture Operations, and Related Sciences, Other.",
+        "CIPDefinition": "Instructional content is defined in code 01.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Environmental Soil Science"
+    },
+    "0301": {
+        "CIPFamily": "03",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Natural Resources Conservation and Research.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 03.0101 - 03.0199.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Environmental Soil Science"
+    },
+    "0302": {
+        "CIPFamily": "03",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Natural Resources Management and Policy.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 03.0201 - 03.0299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Environmental Conservation and Reclamation"
+    },
+    "0303": {
+        "CIPFamily": "03",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Fishing and Fisheries Sciences and Management.",
+        "CIPDefinition": "Instructional content is defined in code 03.0301.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Conservation Enforcement"
+    },
+    "0305": {
+        "CIPFamily": "03",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Forestry.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 03.0501 - 03.0599.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Conservation Enforcement"
+    },
+    "0306": {
+        "CIPFamily": "03",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Wildlife and Wildlands Science and Management.",
+        "CIPDefinition": "Instructional content is defined in code 03.0601.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Silviculture, - Sylviculture"
+    },
+    "0399": {
+        "CIPFamily": "03",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Natural Resources and Conservation, Other.",
+        "CIPDefinition": "Instructional content is defined in code 03.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Silviculture, - Sylviculture"
+    },
+    "0402": {
+        "CIPFamily": "04",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Architecture.",
+        "CIPDefinition": "Instructional content is defined in code 04.0201.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Hunting and Trapping"
+    },
+    "0403": {
+        "CIPFamily": "04",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "City/Urban, Community and Regional Planning.",
+        "CIPDefinition": "Instructional content is defined in code 04.0301.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Architecture (BArch, BA/BS), - Architecture (MArch/MA/MS), - Architecture (PhD)"
+    },
+    "0404": {
+        "CIPFamily": "04",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Environmental Design.",
+        "CIPDefinition": "Instructional content is defined in code 04.0401.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Urban Design"
+    },
+    "0405": {
+        "CIPFamily": "04",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Interior Architecture.",
+        "CIPDefinition": "Instructional content is defined in code 04.0501.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Urban Design"
+    },
+    "0406": {
+        "CIPFamily": "04",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Landscape Architecture.",
+        "CIPDefinition": "Instructional content is defined in code 04.0601.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Urban Design"
+    },
+    "0408": {
+        "CIPFamily": "04",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Architectural History and Criticism.",
+        "CIPDefinition": "Instructional content is defined in code 04.0801.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Landscape Architecture (BS, BSLA, BLA), - Landscape Architecture (MSLA, MLA), - Landscape Architecture (PhD)"
+    },
+    "0409": {
+        "CIPFamily": "04",
+        "Action": "No substantive changes",
+        "TextChange": "yes",
+        "CIPTitle": "Architectural Sciences and Technology.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 04.0901 - 04.0999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Landscape Architecture (BS, BSLA, BLA), - Landscape Architecture (MSLA, MLA), - Landscape Architecture (PhD)"
+    },
+    "0410": {
+        "CIPFamily": "04",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Real Estate Development.",
+        "CIPDefinition": "Instructional content is defined in code 04.1001.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Architectural and Building Sciences/Technology (BArch, BA/BS), - Architectural and Building Sciences/Technology (MArch/MA/MS), - Architectural and Building Sciences/Technology (PhD)"
+    },
+    "0499": {
+        "CIPFamily": "04",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Architecture and Related Services, Other.",
+        "CIPDefinition": "Instructional content is defined in code 04.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Architectural and Building Sciences/Technology (BArch, BA/BS), - Architectural and Building Sciences/Technology (MArch/MA/MS), - Architectural and Building Sciences/Technology (PhD)"
+    },
+    "0501": {
+        "CIPFamily": "05",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Area Studies.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 05.0101 - 05.0199.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Architectural and Building Sciences/Technology (BArch, BA/BS), - Architectural and Building Sciences/Technology (MArch/MA/MS), - Architectural and Building Sciences/Technology (PhD)"
+    },
+    "0502": {
+        "CIPFamily": "05",
+        "Action": "No substantive changes",
+        "TextChange": "yes",
+        "CIPTitle": "Ethnic, Cultural Minority, Gender, and Group Studies.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 05.0200 - 05.0299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Modern Middle Eastern Studies"
+    },
+    "0599": {
+        "CIPFamily": "05",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Area, Ethnic, Cultural, and Gender Studies, Other.",
+        "CIPDefinition": "Deleted, Report under 05.01, 05.02",
+        "CrossReferences": "",
+        "Examples": "Examples: - Women's, Gay and Lesbian Studies, Integrated"
+    },
+    "0901": {
+        "CIPFamily": "09",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Communication and Media Studies.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 09.0100 - 09.0199.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Women's, Gay and Lesbian Studies, Integrated"
+    },
+    "0904": {
+        "CIPFamily": "09",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Journalism.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 09.0401 - 09.0499.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Media Studies"
+    },
+    "0907": {
+        "CIPFamily": "09",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Radio, Television, and Digital Communication.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 09.0701 - 09.0799.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Online Journalism"
+    },
+    "0909": {
+        "CIPFamily": "09",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Public Relations, Advertising, and Applied Communication.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 09.0900 - 09.0999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Digital Media"
+    },
+    "0910": {
+        "CIPFamily": "09",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Publishing.",
+        "CIPDefinition": "Instructional content is defined in code 09.1001.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Technical Communication, - Scientific Communication"
+    },
+    "0999": {
+        "CIPFamily": "09",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Communication, Journalism, and Related Programs, Other.",
+        "CIPDefinition": "Instructional content is defined in code 09.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Technical Communication, - Scientific Communication"
+    },
+    "1001": {
+        "CIPFamily": "10",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Communications Technology/Technician.",
+        "CIPDefinition": "Instructional content is defined in code 10.0105.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Technical Communication, - Scientific Communication"
+    },
+    "1002": {
+        "CIPFamily": "10",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Audiovisual Communications Technologies/Technicians.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 10.0201 - 10.0299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Technical Communication, - Scientific Communication"
+    },
+    "1003": {
+        "CIPFamily": "10",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Graphic Communications.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 10.0301 - 10.0399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Broadcast Captioning"
+    },
+    "1099": {
+        "CIPFamily": "10",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Communications Technologies/Technicians and Support Services, Other.",
+        "CIPDefinition": "Instructional content is defined in code 10.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Broadcast Captioning"
+    },
+    "1101": {
+        "CIPFamily": "11",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Computer and Information Sciences, General.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 11.0101 - 11.0199.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Broadcast Captioning"
+    },
+    "1102": {
+        "CIPFamily": "11",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Computer Programming.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 11.0201 - 11.0299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Social Informatics"
+    },
+    "1103": {
+        "CIPFamily": "11",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Data Processing.",
+        "CIPDefinition": "Instructional content is defined in code 11.0301.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Social Informatics"
+    },
+    "1104": {
+        "CIPFamily": "11",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Information Science/Studies.",
+        "CIPDefinition": "Instructional content is defined in code 11.0401.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Social Informatics"
+    },
+    "1105": {
+        "CIPFamily": "11",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Computer Systems Analysis.",
+        "CIPDefinition": "Instructional content is defined in code 11.0501.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Social Informatics"
+    },
+    "1106": {
+        "CIPFamily": "11",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Data Entry/Microcomputer Applications.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 11.0601 - 11.0699.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Social Informatics"
+    },
+    "1107": {
+        "CIPFamily": "11",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Computer Science.",
+        "CIPDefinition": "Instructional content is defined in code 11.0701.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Social Informatics"
+    },
+    "1108": {
+        "CIPFamily": "11",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Computer Software and Media Applications.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 11.0801 - 11.0899.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Social Informatics"
+    },
+    "1109": {
+        "CIPFamily": "11",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Computer Systems Networking and Telecommunications.",
+        "CIPDefinition": "Instructional content is defined in code 11.0901.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Social Informatics"
+    },
+    "1110": {
+        "CIPFamily": "11",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Computer/Information Technology Administration and Management.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 11.1001 - 11.1099.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Computer Systems Telecommunications, - Computer Systems Networking"
+    },
+    "1199": {
+        "CIPFamily": "11",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Computer and Information Sciences and Support Services, Other.",
+        "CIPDefinition": "Instructional content is defined in code 11.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Technical Support Specialist, - Help Desk Specialist, - IT Support Specialist"
+    },
+    "1203": {
+        "CIPFamily": "12",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Funeral Service and Mortuary Science.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 12.0301 - 12.0399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Technical Support Specialist, - Help Desk Specialist, - IT Support Specialist"
+    },
+    "1204": {
+        "CIPFamily": "12",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Cosmetology and Related Personal Grooming Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 12.0401 - 12.0499.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Technical Support Specialist, - Help Desk Specialist, - IT Support Specialist"
+    },
+    "1205": {
+        "CIPFamily": "12",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Culinary Arts and Related Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 12.0500 - 12.0599.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Medical Aesthetician/Esthetician, - Advanced Aesthetician/Esthetician, - Advanced Paramedical Aesthetician/Esthetician"
+    },
+    "1299": {
+        "CIPFamily": "12",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Personal and Culinary Services, Other.",
+        "CIPDefinition": "Instructional content is defined in code 12.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Cook"
+    },
+    "1301": {
+        "CIPFamily": "13",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Education, General.",
+        "CIPDefinition": "Instructional content is defined in code 13.0101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Cook"
+    },
+    "1302": {
+        "CIPFamily": "13",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Bilingual, Multilingual, and Multicultural Education.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 13.0201 - 13.0299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Cook"
+    },
+    "1303": {
+        "CIPFamily": "13",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Curriculum and Instruction.",
+        "CIPDefinition": "Instructional content is defined in code 13.0301.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Cook"
+    },
+    "1304": {
+        "CIPFamily": "13",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Educational Administration and Supervision.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 13.0401 - 13.0499.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Cook"
+    },
+    "1305": {
+        "CIPFamily": "13",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Educational/Instructional Media Design.",
+        "CIPDefinition": "Instructional content is defined in code 13.0501.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Higher Education Policy"
+    },
+    "1306": {
+        "CIPFamily": "13",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Educational Assessment, Evaluation, and Research.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 13.0601 - 13.0699.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Advanced Learning Technologies"
+    },
+    "1307": {
+        "CIPFamily": "13",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "International and Comparative Education.",
+        "CIPDefinition": "Instructional content is defined in code 13.0701.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Learning Sciences Research, - Learning Sciences and Policy"
+    },
+    "1309": {
+        "CIPFamily": "13",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Social and Philosophical Foundations of Education.",
+        "CIPDefinition": "Instructional content is defined in code 13.0901.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Learning Sciences Research, - Learning Sciences and Policy"
+    },
+    "1310": {
+        "CIPFamily": "13",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Special Education and Teaching.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 13.1001 - 13.1099.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Learning Sciences Research, - Learning Sciences and Policy"
+    },
+    "1311": {
+        "CIPFamily": "13",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Student Counseling and Personnel Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 13.1101 - 13.1199.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Learning Sciences Research, - Learning Sciences and Policy"
+    },
+    "1312": {
+        "CIPFamily": "13",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Teacher Education and Professional Development, Specific Levels and Methods.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 13.1201 - 13.1299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Learning Sciences Research, - Learning Sciences and Policy"
+    },
+    "1313": {
+        "CIPFamily": "13",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Teacher Education and Professional Development, Specific Subject Areas.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 13.1301 - 13.1399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Distance Learning Teacher, - Online Teaching, - Postsecondary Instructor Education, - College Teaching"
+    },
+    "1314": {
+        "CIPFamily": "13",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Teaching English or French as a Second or Foreign Language.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 13.1401 - 13.1499.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Geosciences Education"
+    },
+    "1315": {
+        "CIPFamily": "13",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Teaching Assistants/Aides.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 13.1501 - 13.1599.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Geosciences Education"
+    },
+    "1399": {
+        "CIPFamily": "13",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Education, Other.",
+        "CIPDefinition": "Instructional content is defined in code 13.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Early Childhood Education Teacher Assistant/Aide, - Elementary Education Teacher Assistant/Aide, - Special Education Teacher Assistant/Aide, - Paraprofessional Educator"
+    },
+    "1401": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Engineering, General.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 14.0101 - 14.0102.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Early Childhood Education Teacher Assistant/Aide, - Elementary Education Teacher Assistant/Aide, - Special Education Teacher Assistant/Aide, - Paraprofessional Educator"
+    },
+    "1402": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Aerospace, Aeronautical and Astronautical Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.0201.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Pre-Engineering Transfer Program"
+    },
+    "1403": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "yes",
+        "CIPTitle": "Agricultural Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.0301.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Aeronautical Engineering, - Astronautical Engineering, - Space Systems Engineering, - Space Facilities Engineering, - Missile Systems Engineering, - Aeroelasticity, - Aerodynamics, - Air-Breathing Propulsion, - Stability and Control, - Astrodynamics, - Guidance and Control, - Aerospace Navigation, - Rocket Propulsion"
+    },
+    "1404": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Architectural Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.0401.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Bioprocessing Engineering, - Food Engineering, - Soil Engineering"
+    },
+    "1405": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Biomedical/Medical Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.0501.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Bioprocessing Engineering, - Food Engineering, - Soil Engineering"
+    },
+    "1406": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Ceramic Sciences and Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.0601.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Cell and Tissue Engineering, - Neural Engineering, - Biomaterials Engineering, - Biomechanics"
+    },
+    "1407": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Chemical Engineering.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 14.0701 - 14.0799.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Cell and Tissue Engineering, - Neural Engineering, - Biomaterials Engineering, - Biomechanics"
+    },
+    "1408": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Civil Engineering.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 14.0801 - 14.0899.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Cell and Tissue Engineering, - Neural Engineering, - Biomaterials Engineering, - Biomechanics"
+    },
+    "1409": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Computer Engineering.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 14.0901 - 14.0999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Geotechnical Engineering, - Geoenvironmental Engineering, - Geotechnical and Geoenvironmental Engineering"
+    },
+    "1410": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Electrical, Electronics and Communications Engineering.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 14.1001 - 14.1099.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Computer Systems Engineering"
+    },
+    "1411": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Engineering Mechanics.",
+        "CIPDefinition": "Instructional content is defined in code 14.1101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Communications Systems Engineering"
+    },
+    "1412": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Engineering Physics.",
+        "CIPDefinition": "Instructional content is defined in code 14.1201.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Communications Systems Engineering"
+    },
+    "1413": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Engineering Science.",
+        "CIPDefinition": "Instructional content is defined in code 14.1301.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Applied Physics, - Directed Energy/Laser Physics, - Semiconductor Physics"
+    },
+    "1414": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Environmental/Environmental Health Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.1401.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Applied Physics, - Directed Energy/Laser Physics, - Semiconductor Physics"
+    },
+    "1418": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Materials Engineering",
+        "CIPDefinition": "Instructional content is defined in code 14.1801.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Environmental Engineering, - Environmental Management Engineering"
+    },
+    "1419": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Mechanical Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.1901.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Materials Processing and Manufacturing, - Materials Science Engineering"
+    },
+    "1420": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Metallurgical Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.2001.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Materials Processing and Manufacturing, - Materials Science Engineering"
+    },
+    "1421": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Mining and Mineral Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.2101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Materials Processing and Manufacturing, - Materials Science Engineering"
+    },
+    "1422": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Naval Architecture and Marine Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.2201.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Materials Processing and Manufacturing, - Materials Science Engineering"
+    },
+    "1423": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Nuclear Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.2301.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Materials Processing and Manufacturing, - Materials Science Engineering"
+    },
+    "1424": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Ocean Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.2401.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Nuclear Reactor Engineering, - Nuclear Fuels, - Nuclear Power Engineering, - Nuclear Radiation and Shielding, - Nuclear Instrumentation and Measurement"
+    },
+    "1425": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Petroleum Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.2501.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Nuclear Reactor Engineering, - Nuclear Fuels, - Nuclear Power Engineering, - Nuclear Radiation and Shielding, - Nuclear Instrumentation and Measurement"
+    },
+    "1427": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Systems Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.2701.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Nuclear Reactor Engineering, - Nuclear Fuels, - Nuclear Power Engineering, - Nuclear Radiation and Shielding, - Nuclear Instrumentation and Measurement"
+    },
+    "1428": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Textile Sciences and Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.2801. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Industrial/Manufacturing Systems Engineering, - Product Development Engineering, - Logistics Engineering, - Systems Engineering Management, - Capability-Based Systems, - Optimization, - Modeling and Simulation, - Decision Engineering, - Dynamical Systems"
+    },
+    "1431": {
+        "CIPFamily": "14",
+        "Action": "Moved from",
+        "TextChange": "no",
+        "CIPTitle": "Materials Science.",
+        "CIPDefinition": "Moved from 14.31 to 40.10",
+        "CrossReferences": "",
+        "Examples": "Examples: - Industrial/Manufacturing Systems Engineering, - Product Development Engineering, - Logistics Engineering, - Systems Engineering Management, - Capability-Based Systems, - Optimization, - Modeling and Simulation, - Decision Engineering, - Dynamical Systems"
+    },
+    "1432": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Polymer/Plastics Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.3201.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Industrial/Manufacturing Systems Engineering, - Product Development Engineering, - Logistics Engineering, - Systems Engineering Management, - Capability-Based Systems, - Optimization, - Modeling and Simulation, - Decision Engineering, - Dynamical Systems"
+    },
+    "1433": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Construction Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.3301.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Industrial/Manufacturing Systems Engineering, - Product Development Engineering, - Logistics Engineering, - Systems Engineering Management, - Capability-Based Systems, - Optimization, - Modeling and Simulation, - Decision Engineering, - Dynamical Systems"
+    },
+    "1434": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Forest Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.3401.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Construction Engineering and Management"
+    },
+    "1435": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Industrial Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.3501.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Construction Engineering and Management"
+    },
+    "1436": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Manufacturing Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.3601.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Construction Engineering and Management"
+    },
+    "1437": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Operations Research.",
+        "CIPDefinition": "Instructional content is defined in code 14.3701.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Construction Engineering and Management"
+    },
+    "1438": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Surveying Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.3801.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Decision Support Systems, - Decision Analysis, - Operations Analysis, - Simulation, - Operational Sciences"
+    },
+    "1439": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Geological/Geophysical Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.3901.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Decision Support Systems, - Decision Analysis, - Operations Analysis, - Simulation, - Operational Sciences"
+    },
+    "1440": {
+        "CIPFamily": "14",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Paper Science and Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.4001.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Decision Support Systems, - Decision Analysis, - Operations Analysis, - Simulation, - Operational Sciences"
+    },
+    "1441": {
+        "CIPFamily": "14",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Electromechanical Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.4101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Paper Science, - Paper Science Engineering, - Pulp and Paper Science, - Wood and Paper Science"
+    },
+    "1442": {
+        "CIPFamily": "14",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Mechatronics, Robotics, and Automation Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.4201.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Paper Science, - Paper Science Engineering, - Pulp and Paper Science, - Wood and Paper Science"
+    },
+    "1443": {
+        "CIPFamily": "14",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Biochemical Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.4301.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Paper Science, - Paper Science Engineering, - Pulp and Paper Science, - Wood and Paper Science"
+    },
+    "1444": {
+        "CIPFamily": "14",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Engineering Chemistry.",
+        "CIPDefinition": "Instructional content is defined in code 14.4401.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Biochemical Engineering, - Chemical and Biochemical Engineering"
+    },
+    "1445": {
+        "CIPFamily": "14",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Biological/Biosystems Engineering.",
+        "CIPDefinition": "Instructional content is defined in code 14.4501.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Biochemical Engineering, - Chemical and Biochemical Engineering"
+    },
+    "1499": {
+        "CIPFamily": "14",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Engineering, Other.",
+        "CIPDefinition": "Instructional content is defined in code 14.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Biological Engineering, - Biosystems Engineering, - Biological Systems Engineering, - Biomass Engineering, - Biological/Biosystems Engineering"
+    },
+    "1500": {
+        "CIPFamily": "15",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Engineering Technology, General.",
+        "CIPDefinition": "Instructional content is defined in code 15.0000.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Sustainable/Renewable Energy Engineering"
+    },
+    "1501": {
+        "CIPFamily": "15",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Architectural Engineering Technologies/Technicians.",
+        "CIPDefinition": "Instructional content is defined in code 15.0101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Sustainable/Renewable Energy Engineering"
+    },
+    "1502": {
+        "CIPFamily": "15",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Civil Engineering Technologies/Technicians.",
+        "CIPDefinition": "Instructional content is defined in code 15.0201.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Sustainable/Renewable Energy Engineering"
+    },
+    "1503": {
+        "CIPFamily": "15",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Electrical Engineering Technologies/Technicians.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 15.0303 - 15.0399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Sustainable/Renewable Energy Engineering"
+    },
+    "1504": {
+        "CIPFamily": "15",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Electromechanical Instrumentation and Maintenance Technologies/Technicians.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 15.0401 - 15.0499.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Microelectronics Technology"
+    },
+    "1505": {
+        "CIPFamily": "15",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Environmental Control Technologies/Technicians.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 15.0501 - 15.0599.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Industrial Instrument Mechanic, - Instrumentation and Control Technician"
+    },
+    "1506": {
+        "CIPFamily": "15",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Industrial Production Technologies/Technicians.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 15.0607 - 15.0699.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Air Conditioning and Heating (ACH), - Air Conditioning and Refrigeration (ACR), - Air Conditioning, Heating and Refrigeration (ACHR), - Heating, Refrigeration and Air Conditioning (HRAC), - Heating,  Ventilation, and Air Conditioning (HVAC), - Heating, Ventilation, Air Conditioning and Refrigeration (HVAC/R), - Air Conditioning Technology"
+    },
+    "1507": {
+        "CIPFamily": "15",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Quality Control and Safety Technologies/Technicians.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 15.0701 - 15.0799.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Air Conditioning and Heating (ACH), - Air Conditioning and Refrigeration (ACR), - Air Conditioning, Heating and Refrigeration (ACHR), - Heating, Refrigeration and Air Conditioning (HRAC), - Heating,  Ventilation, and Air Conditioning (HVAC), - Heating, Ventilation, Air Conditioning and Refrigeration (HVAC/R), - Air Conditioning Technology"
+    },
+    "1508": {
+        "CIPFamily": "15",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Mechanical Engineering Related Technologies/Technicians.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 15.0801 - 15.0899.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Non-Destructive Testing Technology"
+    },
+    "1509": {
+        "CIPFamily": "15",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Mining and Petroleum Technologies/Technicians.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 15.0901 - 15.0999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Non-Destructive Testing Technology"
+    },
+    "1510": {
+        "CIPFamily": "15",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Construction Engineering Technologies.",
+        "CIPDefinition": "Instructional content is defined in code 15.1001.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Non-Destructive Testing Technology"
+    },
+    "1511": {
+        "CIPFamily": "15",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Engineering-Related Technologies.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 15.1102 - 15.1199.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Non-Destructive Testing Technology"
+    },
+    "1512": {
+        "CIPFamily": "15",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Computer Engineering Technologies/Technicians.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 15.1201 - 15.1299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Non-Destructive Testing Technology"
+    },
+    "1513": {
+        "CIPFamily": "15",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Drafting/Design Engineering Technologies/Technicians.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 15.1301 - 15.1399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Non-Destructive Testing Technology"
+    },
+    "1514": {
+        "CIPFamily": "15",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Nuclear Engineering Technologies/Technicians.",
+        "CIPDefinition": "Instructional content is defined in code 15.1401.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Engineering Graphics and Design, - Engineering Graphics Technology"
+    },
+    "1515": {
+        "CIPFamily": "15",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Engineering-Related Fields.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 15.1501 - 15.1599.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Engineering Graphics and Design, - Engineering Graphics Technology"
+    },
+    "1516": {
+        "CIPFamily": "15",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Nanotechnology.",
+        "CIPDefinition": "Instructional content is defined in code 15.1601.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Engineering Graphics and Design, - Engineering Graphics Technology"
+    },
+    "1599": {
+        "CIPFamily": "15",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Engineering Technologies/Technicians, Other.",
+        "CIPDefinition": "Instructional content is defined in code 15.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Nanofabrication Technology, - Nanoscience Technician"
+    },
+    "1601": {
+        "CIPFamily": "16",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Linguistic, Comparative, and Related Language Studies and Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 16.0101 - 16.0199.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1602": {
+        "CIPFamily": "16",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "African Languages, Literatures, and Linguistics.",
+        "CIPDefinition": "Instructional content is defined in code 16.0201.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1603": {
+        "CIPFamily": "16",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "East Asian Languages, Literatures, and Linguistics.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 16.0300 - 16.0399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1604": {
+        "CIPFamily": "16",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Slavic, Baltic and Albanian Languages, Literatures, and Linguistics.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 16.0400 - 16.0499.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1605": {
+        "CIPFamily": "16",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Germanic Languages, Literatures, and Linguistics.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 16.0500 - 16.0599.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1606": {
+        "CIPFamily": "16",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Modern Greek Language and Literature.",
+        "CIPDefinition": "Instructional content is defined in code 16.0601.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1607": {
+        "CIPFamily": "16",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "South Asian Languages, Literatures, and Linguistics.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 16.0700 - 16.0799.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1608": {
+        "CIPFamily": "16",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Iranian/Persian Languages, Literatures, and Linguistics.",
+        "CIPDefinition": "Instructional content is defined in code 16.0801.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1609": {
+        "CIPFamily": "16",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Romance Languages, Literatures, and Linguistics.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 16.0900 - 16.0999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1610": {
+        "CIPFamily": "16",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "American Indian/Native American Languages, Literatures, and Linguistics.",
+        "CIPDefinition": "Instructional content is defined in code 16.1001.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1611": {
+        "CIPFamily": "16",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Middle/Near Eastern and Semitic Languages, Literatures, and Linguistics.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 16.1100 - 16.1199.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1612": {
+        "CIPFamily": "16",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Classics and Classical Languages, Literatures, and Linguistics.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 16.1200 - 16.1299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1613": {
+        "CIPFamily": "16",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Celtic Languages, Literatures, and Linguistics.",
+        "CIPDefinition": "Instructional content is defined in code 16.1301.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1614": {
+        "CIPFamily": "16",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Southeast Asian and Australasian/Pacific Languages, Literatures, and Linguistics.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 16.1400 - 16.1499.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1615": {
+        "CIPFamily": "16",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Turkic, Uralic-Altaic, Caucasian, and Central Asian Languages, Literatures, and Linguistics.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 16.1501 - 16.1599.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1616": {
+        "CIPFamily": "16",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "American Sign Language.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 16.1601 - 16.1699.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1699": {
+        "CIPFamily": "16",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Foreign Languages, Literatures, and Linguistics, Other.",
+        "CIPDefinition": "Instructional content is defined in code 16.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1900": {
+        "CIPFamily": "19",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Work and Family Studies.",
+        "CIPDefinition": "Instructional content is defined in code 19.0000.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1901": {
+        "CIPFamily": "19",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Family and Consumer Sciences/Human Sciences, General.",
+        "CIPDefinition": "Instructional content is defined in code 19.0101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1902": {
+        "CIPFamily": "19",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Family and Consumer Sciences/Human Sciences Business Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 19.0201 - 19.0299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1904": {
+        "CIPFamily": "19",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Family and Consumer Economics and Related Studies.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 19.0401 - 19.0499.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1905": {
+        "CIPFamily": "19",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Foods, Nutrition, and Related Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 19.0501 - 19.0599.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1906": {
+        "CIPFamily": "19",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Housing and Human Environments.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 19.0601 - 19.0699.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1907": {
+        "CIPFamily": "19",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Human Development, Family Studies, and Related Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 19.0701 - 19.0799.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1909": {
+        "CIPFamily": "19",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Apparel and Textiles.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 19.0901 - 19.0999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "1999": {
+        "CIPFamily": "19",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Family and Consumer Sciences/Human Sciences, Other.",
+        "CIPDefinition": "Instructional content is defined in code 19.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "2101": {
+        "CIPFamily": "21",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Technology Education/Industrial Arts Programs.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "2200": {
+        "CIPFamily": "22",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Non-Professional General Legal Studies (Undergraduate).",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 22.0000 - 22.0001.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "2201": {
+        "CIPFamily": "22",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Law.",
+        "CIPDefinition": "Instructional content is defined in code 22.0101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Product Design Engineering Technology"
+    },
+    "2202": {
+        "CIPFamily": "22",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Legal Research and Advanced Professional Studies.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 22.0201 - 22.0299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Law (LL.B.), - Law (J.D.)"
+    },
+    "2203": {
+        "CIPFamily": "22",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Legal Support Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 22.0301 - 22.0399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Intellectual Property Law ( LL.M.), - Intellectual Property Law (J.S.D./S.J.D.)"
+    },
+    "2299": {
+        "CIPFamily": "22",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Legal Professions and Studies, Other.",
+        "CIPDefinition": "Instructional content is defined in code 22.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Intellectual Property Law ( LL.M.), - Intellectual Property Law (J.S.D./S.J.D.)"
+    },
+    "2301": {
+        "CIPFamily": "23",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "English Language and Literature, General.",
+        "CIPDefinition": "Instructional content is defined in code 23.0101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Intellectual Property Law ( LL.M.), - Intellectual Property Law (J.S.D./S.J.D.)"
+    },
+    "2304": {
+        "CIPFamily": "23",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "English Composition.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Intellectual Property Law ( LL.M.), - Intellectual Property Law (J.S.D./S.J.D.)"
+    },
+    "2305": {
+        "CIPFamily": "23",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Creative Writing.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Intellectual Property Law ( LL.M.), - Intellectual Property Law (J.S.D./S.J.D.)"
+    },
+    "2307": {
+        "CIPFamily": "23",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "American Literature (United States and Canadian.)",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Intellectual Property Law ( LL.M.), - Intellectual Property Law (J.S.D./S.J.D.)"
+    },
+    "2308": {
+        "CIPFamily": "23",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "English Literature (British and Commonwealth).",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Intellectual Property Law ( LL.M.), - Intellectual Property Law (J.S.D./S.J.D.)"
+    },
+    "2310": {
+        "CIPFamily": "23",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Speech and Rhetorical Studies.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Intellectual Property Law ( LL.M.), - Intellectual Property Law (J.S.D./S.J.D.)"
+    },
+    "2311": {
+        "CIPFamily": "23",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Technical and Business Writing.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Intellectual Property Law ( LL.M.), - Intellectual Property Law (J.S.D./S.J.D.)"
+    },
+    "2313": {
+        "CIPFamily": "23",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Rhetoric and Composition/Writing Studies.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 23.1301 - 23.1399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Intellectual Property Law ( LL.M.), - Intellectual Property Law (J.S.D./S.J.D.)"
+    },
+    "2314": {
+        "CIPFamily": "23",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Literature.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 23.1401 - 23.1499.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Rhetoric and Writing, - Rhetoric and Writing Studies, - Rhetoric and Composition"
+    },
+    "2399": {
+        "CIPFamily": "23",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "English Language and Literature/Letters, Other.",
+        "CIPDefinition": "Instructional content is defined in code 23.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Literature for Children and Young Adults"
+    },
+    "2401": {
+        "CIPFamily": "24",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Liberal Arts and Sciences, General Studies and Humanities.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 24.0101 - 24.0199.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Writing and Literature"
+    },
+    "2501": {
+        "CIPFamily": "25",
+        "Action": "No substantive changes",
+        "TextChange": "yes",
+        "CIPTitle": "Library Science and Administration.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 25.0101 - 25.0199.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Undeclared Major, - Undecided"
+    },
+    "2503": {
+        "CIPFamily": "25",
+        "Action": "No substantive changes",
+        "TextChange": "yes",
+        "CIPTitle": "Library and Archives Assisting.",
+        "CIPDefinition": "Instructional content is defined in code 25.0301.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Archival Administration and Records Management, - Archival Studies, - Records Management"
+    },
+    "2599": {
+        "CIPFamily": "25",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Library Science, Other.",
+        "CIPDefinition": "Instructional content is defined in code 25.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Library Assistant, - Library Technician, - Archives Assistant, - Archives Technician"
+    },
+    "2601": {
+        "CIPFamily": "26",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Biology, General.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 26.0101 - 26.0102.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Library Assistant, - Library Technician, - Archives Assistant, - Archives Technician"
+    },
+    "2602": {
+        "CIPFamily": "26",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Biochemistry, Biophysics and Molecular Biology.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 26.0202 - 26.0299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Library Assistant, - Library Technician, - Archives Assistant, - Archives Technician"
+    },
+    "2603": {
+        "CIPFamily": "26",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Botany/Plant Biology.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 26.0301 - 26.0399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Comparative Biochemistry"
+    },
+    "2604": {
+        "CIPFamily": "26",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Cell/Cellular Biology and Anatomical Sciences.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 26.0401 - 26.0499.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Phycology"
+    },
+    "2605": {
+        "CIPFamily": "26",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Microbiological Sciences and Immunology.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 26.0502 - 26.0599.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Cell and Developmental Biology"
+    },
+    "2607": {
+        "CIPFamily": "26",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Zoology/Animal Biology.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 26.0701 - 26.0799.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Medical Microbiology and Immunology"
+    },
+    "2608": {
+        "CIPFamily": "26",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Genetics.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 26.0801 - 26.0899.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Medical Microbiology and Immunology"
+    },
+    "2609": {
+        "CIPFamily": "26",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Physiology, Pathology and Related Sciences.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 26.0901 - 26.0999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Neurogenetics, - Proteomics, - Protein Expression"
+    },
+    "2610": {
+        "CIPFamily": "26",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Pharmacology and Toxicology.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 26.1001 - 26.1099.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Neurogenetics, - Proteomics, - Protein Expression"
+    },
+    "2611": {
+        "CIPFamily": "26",
+        "Action": "No substantive changes",
+        "TextChange": "yes",
+        "CIPTitle": "Biomathematics, Bioinformatics, and Computational Biology.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 26.1101 - 26.1199.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Neurogenetics, - Proteomics, - Protein Expression"
+    },
+    "2612": {
+        "CIPFamily": "26",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Biotechnology.",
+        "CIPDefinition": "Instructional content is defined in code 26.1201.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Biomathematics"
+    },
+    "2613": {
+        "CIPFamily": "26",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Ecology, Evolution, Systematics, and Population Biology.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 26.1301 - 26.1399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Biomathematics"
+    },
+    "2614": {
+        "CIPFamily": "26",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Molecular Medicine.",
+        "CIPDefinition": "Instructional content is defined in code 26.1401.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Environmental Microbiology"
+    },
+    "2615": {
+        "CIPFamily": "26",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Neurobiology and Neurosciences.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 26.1501 - 26.1599.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Environmental Microbiology"
+    },
+    "2699": {
+        "CIPFamily": "26",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Biological and Biomedical Sciences, Other.",
+        "CIPDefinition": "Instructional content is defined in code 26.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Medical Neurobiology, - Computational Neurobiology"
+    },
+    "2701": {
+        "CIPFamily": "27",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Mathematics.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 27.0101 - 27.0199.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Medical Neurobiology, - Computational Neurobiology"
+    },
+    "2703": {
+        "CIPFamily": "27",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Applied Mathematics.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 27.0301 - 27.0399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Medical Neurobiology, - Computational Neurobiology"
+    },
+    "2705": {
+        "CIPFamily": "27",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Statistics.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 27.0501 - 27.0599.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Mathematical Finance, - Quantitative Finance, - Quantitative and Computational Finance"
+    },
+    "2799": {
+        "CIPFamily": "27",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Mathematics and Statistics, Other.",
+        "CIPDefinition": "Instructional content is defined in code 27.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Mathematical Finance, - Quantitative Finance, - Quantitative and Computational Finance"
+    },
+    "2801": {
+        "CIPFamily": "28",
+        "Action": "No substantive changes",
+        "TextChange": "yes",
+        "CIPTitle": "Air Force ROTC, Air Science and Operations.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 28.0101 - 28.0199. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Math Economics"
+    },
+    "2803": {
+        "CIPFamily": "28",
+        "Action": "No substantive changes",
+        "TextChange": "yes",
+        "CIPTitle": "Army ROTC, Military Science and Operations.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 28.0301 - 28.0399. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Math Economics"
+    },
+    "2804": {
+        "CIPFamily": "28",
+        "Action": "No substantive changes",
+        "TextChange": "yes",
+        "CIPTitle": "Navy/Marine ROTC, Naval Science and Operations.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 28.0401 - 28.0499. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Math Economics"
+    },
+    "2805": {
+        "CIPFamily": "28",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Military Science and Operational Studies.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 28.0501 - 28.0599. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Math Economics"
+    },
+    "2806": {
+        "CIPFamily": "28",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Security Policy and Strategy.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 28.0601 - 28.0699. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Special Operations, - Low-Intensity Warfare, - Irregular and Guerilla Warfare, - Terrorism and Counterterorrism"
+    },
+    "2807": {
+        "CIPFamily": "28",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Military Economics and Management.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 28.0701 - 28.0799. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Nuclear Weapons and Counterproliferation, - Combating Weapons of Mass Destruction"
+    },
+    "2899": {
+        "CIPFamily": "28",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Military Science, Leadership and Operational Art, Other.",
+        "CIPDefinition": "Instructional content is defined in code 28.9999. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Nuclear Weapons and Counterproliferation, - Combating Weapons of Mass Destruction"
+    },
+    "2901": {
+        "CIPFamily": "29",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Military Technologies.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Nuclear Weapons and Counterproliferation, - Combating Weapons of Mass Destruction"
+    },
+    "2902": {
+        "CIPFamily": "29",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Intelligence, Command Control and Information Operations.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 29.0201 - 29.0299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Nuclear Weapons and Counterproliferation, - Combating Weapons of Mass Destruction"
+    },
+    "2903": {
+        "CIPFamily": "29",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Military Applied Sciences.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 29.0301 - 29.0399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Cyberspace Operations, - Electronic Warfare, - Information Warfare"
+    },
+    "2904": {
+        "CIPFamily": "29",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Military Systems and Maintenance Technology.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 29.0401 - 29.0499.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Cyberspace Operations, - Electronic Warfare, - Information Warfare"
+    },
+    "2999": {
+        "CIPFamily": "29",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Military Technologies and Applied Sciences, Other.",
+        "CIPDefinition": "Instructional content is defined in code 29.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Cyberspace Operations, - Electronic Warfare, - Information Warfare"
+    },
+    "3000": {
+        "CIPFamily": "30",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Multi-/Interdisciplinary Studies, General.",
+        "CIPDefinition": "Instructional content is defined in code 30.0000.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Cyberspace Operations, - Electronic Warfare, - Information Warfare"
+    },
+    "3001": {
+        "CIPFamily": "30",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Biological and Physical Sciences.",
+        "CIPDefinition": "Instructional content is defined in code 30.0101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Student-Designed Major"
+    },
+    "3005": {
+        "CIPFamily": "30",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Peace Studies and Conflict Resolution.",
+        "CIPDefinition": "Instructional content is defined in code 30.0501.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Astrobiology"
+    },
+    "3006": {
+        "CIPFamily": "30",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Systems Science and Theory.",
+        "CIPDefinition": "Instructional content is defined in code 30.0601.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Astrobiology"
+    },
+    "3008": {
+        "CIPFamily": "30",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Mathematics and Computer Science.",
+        "CIPDefinition": "Instructional content is defined in code 30.0801.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Astrobiology"
+    },
+    "3010": {
+        "CIPFamily": "30",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Biopsychology.",
+        "CIPDefinition": "Instructional content is defined in code 30.1001.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Astrobiology"
+    },
+    "3011": {
+        "CIPFamily": "30",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Gerontology.",
+        "CIPDefinition": "Instructional content is defined in code 30.1101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Astrobiology"
+    },
+    "3012": {
+        "CIPFamily": "30",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Historic Preservation and Conservation.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 30.1201 - 30.1299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Astrobiology"
+    },
+    "3013": {
+        "CIPFamily": "30",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Medieval and Renaissance Studies.",
+        "CIPDefinition": "Instructional content is defined in code 30.1301.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Astrobiology"
+    },
+    "3014": {
+        "CIPFamily": "30",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Museology/Museum Studies.",
+        "CIPDefinition": "Instructional content is defined in code 30.1401.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Medieval Studies, - Renaissance Studies"
+    },
+    "3015": {
+        "CIPFamily": "30",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Science, Technology and Society.",
+        "CIPDefinition": "Instructional content is defined in code 30.1501.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Medieval Studies, - Renaissance Studies"
+    },
+    "3016": {
+        "CIPFamily": "30",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Accounting and Computer Science.",
+        "CIPDefinition": "Instructional content is defined in code 30.1601.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Social Studies of Science"
+    },
+    "3017": {
+        "CIPFamily": "30",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Behavioral Sciences.",
+        "CIPDefinition": "Instructional content is defined in code 30.1701.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Social Studies of Science"
+    },
+    "3018": {
+        "CIPFamily": "30",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Natural Sciences.",
+        "CIPDefinition": "Instructional content is defined in code 30.1801.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Social Studies of Science"
+    },
+    "3019": {
+        "CIPFamily": "30",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Nutrition Sciences.",
+        "CIPDefinition": "Instructional content is defined in code 30.1901.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Social Studies of Science"
+    },
+    "3020": {
+        "CIPFamily": "30",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "International/Global Studies.",
+        "CIPDefinition": "Instructional content is defined in code 30.2001.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Social Studies of Science"
+    },
+    "3021": {
+        "CIPFamily": "30",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Holocaust and Related Studies.",
+        "CIPDefinition": "Instructional content is defined in code 30.2101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Social Studies of Science"
+    },
+    "3022": {
+        "CIPFamily": "30",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Classical and Ancient Studies.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 30.2201 - 30.2202.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Social Studies of Science"
+    },
+    "3023": {
+        "CIPFamily": "30",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Intercultural/Multicultural and Diversity Studies.",
+        "CIPDefinition": "Instructional content is defined in code 30.2301.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Social Studies of Science"
+    },
+    "3024": {
+        "CIPFamily": "30",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Neuroscience.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Social Studies of Science"
+    },
+    "3025": {
+        "CIPFamily": "30",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Cognitive Science.",
+        "CIPDefinition": "Instructional content is defined in code 30.2501.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Social Studies of Science"
+    },
+    "3026": {
+        "CIPFamily": "30",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Cultural Studies/Critical Theory and Analysis.",
+        "CIPDefinition": "Instructional content is defined in code 30.2601.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Social Studies of Science"
+    },
+    "3027": {
+        "CIPFamily": "30",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Human Biology.",
+        "CIPDefinition": "Instructional content is defined in code 30.2701.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Cultural Studies, - Critical Theory and Analysis"
+    },
+    "3028": {
+        "CIPFamily": "30",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Dispute Resolution.",
+        "CIPDefinition": "Instructional content is defined in code 30.2801. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Biology and Society"
+    },
+    "3029": {
+        "CIPFamily": "30",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Maritime Studies.",
+        "CIPDefinition": "Instructional content is defined in code 30.2901.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Dispute Resolution, - Dispute and Conflict Resolution, - Negotiation and Dispute Resolution, - Alternative Dispute Resolution"
+    },
+    "3030": {
+        "CIPFamily": "30",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Computational Science.",
+        "CIPDefinition": "Instructional content is defined in code 30.3001.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Dispute Resolution, - Dispute and Conflict Resolution, - Negotiation and Dispute Resolution, - Alternative Dispute Resolution"
+    },
+    "3031": {
+        "CIPFamily": "30",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Human Computer Interaction.",
+        "CIPDefinition": "Instructional content is defined in code 30.3101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Scientific Computing"
+    },
+    "3032": {
+        "CIPFamily": "30",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Marine Sciences.",
+        "CIPDefinition": "Instructional content is defined in code 30.3201.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Scientific Computing"
+    },
+    "3033": {
+        "CIPFamily": "30",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Sustainability Studies.",
+        "CIPDefinition": "Instructional content is defined in code 30.3301.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Scientific Computing"
+    },
+    "3099": {
+        "CIPFamily": "30",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Multi/Interdisciplinary Studies, Other.",
+        "CIPDefinition": "Instructional content is defined in code 30.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Sustainability, - Sustainable Living, - Organizational and Environmental Sustainability, - Sustainability Studies"
+    },
+    "3101": {
+        "CIPFamily": "31",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Parks, Recreation and Leisure Studies.",
+        "CIPDefinition": "Instructional content is defined in code 31.0101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Sustainability, - Sustainable Living, - Organizational and Environmental Sustainability, - Sustainability Studies"
+    },
+    "3103": {
+        "CIPFamily": "31",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Parks, Recreation and Leisure Facilities Management.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 31.0301 - 31.0399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Sustainability, - Sustainable Living, - Organizational and Environmental Sustainability, - Sustainability Studies"
+    },
+    "3105": {
+        "CIPFamily": "31",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Health and Physical Education/Fitness.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 31.0501 - 31.0599.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Sustainability, - Sustainable Living, - Organizational and Environmental Sustainability, - Sustainability Studies"
+    },
+    "3106": {
+        "CIPFamily": "31",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Outdoor Education.",
+        "CIPDefinition": "Instructional content is defined in code 31.0601.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Sport and Exercise Psychology, - Psychosocial Aspects of Sport"
+    },
+    "3199": {
+        "CIPFamily": "31",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Parks, Recreation, Leisure, and Fitness Studies, Other.",
+        "CIPDefinition": "Instructional content is defined in code 31.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Sport and Exercise Psychology, - Psychosocial Aspects of Sport"
+    },
+    "3201": {
+        "CIPFamily": "32",
+        "Action": "No substantive changes",
+        "TextChange": "yes",
+        "CIPTitle": "Basic Skills and Developmental/Remedial Education.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 32.0101 - 32.0199. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Sport and Exercise Psychology, - Psychosocial Aspects of Sport"
+    },
+    "3301": {
+        "CIPFamily": "33",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Citizenship Activities.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 33.0101 - 33.0199. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Basic Computer Application"
+    },
+    "3401": {
+        "CIPFamily": "34",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Health-Related Knowledge and Skills.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 34.0102 - 34.0199. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Basic Computer Application"
+    },
+    "3501": {
+        "CIPFamily": "35",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Interpersonal and Social Skills.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 35.0101 - 35.0199. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - First Aid, - CPR"
+    },
+    "3601": {
+        "CIPFamily": "36",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Leisure and Recreational Activities.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 36.0101 - 36.0199. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - First Aid, - CPR"
+    },
+    "3701": {
+        "CIPFamily": "37",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Personal Awareness and Self-Improvement.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 37.0101 - 37.0199. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - First Aid, - CPR"
+    },
+    "3800": {
+        "CIPFamily": "38",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Philosophy and Religious Studies, General.",
+        "CIPDefinition": "Instructional content is defined in code 38.0001.",
+        "CrossReferences": "",
+        "Examples": "Examples: - First Aid, - CPR"
+    },
+    "3801": {
+        "CIPFamily": "38",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Philosophy.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 38.0101 - 38.0199.",
+        "CrossReferences": "",
+        "Examples": "Examples: - First Aid, - CPR"
+    },
+    "3802": {
+        "CIPFamily": "38",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Religion/Religious Studies.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 38.0201 - 38.0299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Applied Ethics, - Professional Ethics, - Engineering Ethics"
+    },
+    "3899": {
+        "CIPFamily": "38",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Philosophy and Religious Studies, Other.",
+        "CIPDefinition": "Instructional content is defined in code 38.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Applied Ethics, - Professional Ethics, - Engineering Ethics"
+    },
+    "3902": {
+        "CIPFamily": "39",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Bible/Biblical Studies.",
+        "CIPDefinition": "Instructional content is defined in code 39.0201.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Applied Ethics, - Professional Ethics, - Engineering Ethics"
+    },
+    "3903": {
+        "CIPFamily": "39",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Missions/Missionary Studies and Missiology.",
+        "CIPDefinition": "Instructional content is defined in code 39.0301.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Applied Ethics, - Professional Ethics, - Engineering Ethics"
+    },
+    "3904": {
+        "CIPFamily": "39",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Religious Education.",
+        "CIPDefinition": "Instructional content is defined in code 39.0401.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Applied Ethics, - Professional Ethics, - Engineering Ethics"
+    },
+    "3905": {
+        "CIPFamily": "39",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Religious/Sacred Music.",
+        "CIPDefinition": "Instructional content is defined in code 39.0501.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Applied Ethics, - Professional Ethics, - Engineering Ethics"
+    },
+    "3906": {
+        "CIPFamily": "39",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Theological and Ministerial Studies.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 39.0601 - 39.0699.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Applied Ethics, - Professional Ethics, - Engineering Ethics"
+    },
+    "3907": {
+        "CIPFamily": "39",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Pastoral Counseling and Specialized Ministries.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 39.0701 - 39.0799.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Rabbinical Studies (M.H.L./Rav)"
+    },
+    "3999": {
+        "CIPFamily": "39",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Theology and Religious Vocations, Other.",
+        "CIPDefinition": "Instructional content is defined in code 39.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Youth and Family Ministries"
+    },
+    "4001": {
+        "CIPFamily": "40",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Physical Sciences.",
+        "CIPDefinition": "Instructional content is defined in code 40.0101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Sacred Scripture Studies"
+    },
+    "4002": {
+        "CIPFamily": "40",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Astronomy and Astrophysics.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 40.0201 - 40.0299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Sacred Scripture Studies"
+    },
+    "4004": {
+        "CIPFamily": "40",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Atmospheric Sciences and Meteorology.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 40.0401 - 40.0499.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Sacred Scripture Studies"
+    },
+    "4005": {
+        "CIPFamily": "40",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Chemistry.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 40.0501 - 40.0599.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Magnetospheric Physics, - Aeronomy, - Ionospheric Environment"
+    },
+    "4006": {
+        "CIPFamily": "40",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Geological and Earth Sciences/Geosciences.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 40.0601 - 40.0699.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Magnetospheric Physics, - Aeronomy, - Ionospheric Environment"
+    },
+    "4008": {
+        "CIPFamily": "40",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Physics.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 40.0801 - 40.0899.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Geodetics, - Geodesy"
+    },
+    "4010": {
+        "CIPFamily": "40",
+        "Action": "Moved to",
+        "TextChange": "no",
+        "CIPTitle": "Materials Sciences.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 40.1001 - 40.1099.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Electrodynamics"
+    },
+    "4099": {
+        "CIPFamily": "40",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Physical Sciences, Other.",
+        "CIPDefinition": "Instructional content is defined in code 40.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Mechanical Properties of Materials, - Structural Materials, - Electronic and Optical Materials, - Biomaterials, - Materials Theory, - Surface Technology"
+    },
+    "4100": {
+        "CIPFamily": "41",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Science Technologies/Technicians, General.",
+        "CIPDefinition": "Instructional content is defined in code 41.0000.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Mechanical Properties of Materials, - Structural Materials, - Electronic and Optical Materials, - Biomaterials, - Materials Theory, - Surface Technology"
+    },
+    "4101": {
+        "CIPFamily": "41",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Biology Technician/Biotechnology Laboratory Technician.",
+        "CIPDefinition": "Instructional content is defined in code 41.0101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Science Laboratory Technology"
+    },
+    "4102": {
+        "CIPFamily": "41",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Nuclear and Industrial Radiologic Technologies/Technicians.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 41.0204 - 41.0299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Science Laboratory Technology"
+    },
+    "4103": {
+        "CIPFamily": "41",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Physical Science Technologies/Technicians.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 41.0301 - 41.0399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Science Laboratory Technology"
+    },
+    "4199": {
+        "CIPFamily": "41",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Science Technologies/Technicians, Other.",
+        "CIPDefinition": "Instructional content is defined in code 41.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4201": {
+        "CIPFamily": "42",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Psychology, General.",
+        "CIPDefinition": "Instructional content is defined in code 42.0101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4202": {
+        "CIPFamily": "42",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Clinical Psychology.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4203": {
+        "CIPFamily": "42",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Cognitive Psychology and Psycholinguistics.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4204": {
+        "CIPFamily": "42",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Community Psychology.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4205": {
+        "CIPFamily": "42",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Comparative Psychology.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4206": {
+        "CIPFamily": "42",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Counseling Psychology.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4207": {
+        "CIPFamily": "42",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Developmental and Child Psychology.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4208": {
+        "CIPFamily": "42",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Experimental Psychology.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4209": {
+        "CIPFamily": "42",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Industrial and Organizational Psychology.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4210": {
+        "CIPFamily": "42",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Personality Psychology.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4211": {
+        "CIPFamily": "42",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Physiological Psychology/Psychobiology.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4216": {
+        "CIPFamily": "42",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Social Psychology.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4217": {
+        "CIPFamily": "42",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "School Psychology.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4218": {
+        "CIPFamily": "42",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Educational Psychology.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4219": {
+        "CIPFamily": "42",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Psychometrics and Quantitative Psychology.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4220": {
+        "CIPFamily": "42",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Clinical Child Psychology.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4221": {
+        "CIPFamily": "42",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Environmental Psychology.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4222": {
+        "CIPFamily": "42",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Geropsychology.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4223": {
+        "CIPFamily": "42",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Health Psychology.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4224": {
+        "CIPFamily": "42",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Psychopharmacology.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4225": {
+        "CIPFamily": "42",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Family Psychology.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4226": {
+        "CIPFamily": "42",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Forensic Psychology.",
+        "CIPDefinition": "Deleted",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4227": {
+        "CIPFamily": "42",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Research and Experimental Psychology.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 42.2701 - 42.2799.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4228": {
+        "CIPFamily": "42",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Clinical, Counseling and Applied Psychology.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 42.2801 - 42.2899. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4299": {
+        "CIPFamily": "42",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Psychology, Other.",
+        "CIPDefinition": "Instructional content is defined in code 42.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Process Technology"
+    },
+    "4301": {
+        "CIPFamily": "43",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Criminal Justice and Corrections.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 43.0102 - 43.0199.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Neuropsychology"
+    },
+    "4302": {
+        "CIPFamily": "43",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Fire Protection.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 43.0201 - 43.0299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Land Transportation Security, - Physical Security, - Protective Operations, - Vehicle/Driver Operations, - Aircraft/Boat Operations"
+    },
+    "4303": {
+        "CIPFamily": "43",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Homeland Security.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 43.0301 - 43.0399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Arson Prevention and Investigation, - Fire Investigation"
+    },
+    "4399": {
+        "CIPFamily": "43",
+        "Action": "No substantive changes",
+        "TextChange": "yes",
+        "CIPTitle": "Homeland Security, Law Enforcement, Firefighting and Related Protective Services, Other.",
+        "CIPDefinition": "Instructional content is defined in code 43.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Search and Rescue Technician, - Emergency Telecommunicator, - Emergency Services Communications, - Public Safety Communications"
+    },
+    "4400": {
+        "CIPFamily": "44",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Human Services, General.",
+        "CIPDefinition": "Instructional content is defined in code 44.0000.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Search and Rescue Technician, - Emergency Telecommunicator, - Emergency Services Communications, - Public Safety Communications"
+    },
+    "4402": {
+        "CIPFamily": "44",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Community Organization and Advocacy.",
+        "CIPDefinition": "Instructional content is defined in code 44.0201.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Search and Rescue Technician, - Emergency Telecommunicator, - Emergency Services Communications, - Public Safety Communications"
+    },
+    "4404": {
+        "CIPFamily": "44",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Public Administration.",
+        "CIPDefinition": "Instructional content is defined in code 44.0401.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Search and Rescue Technician, - Emergency Telecommunicator, - Emergency Services Communications, - Public Safety Communications"
+    },
+    "4405": {
+        "CIPFamily": "44",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Public Policy Analysis.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 44.0501 - 44.0599.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Search and Rescue Technician, - Emergency Telecommunicator, - Emergency Services Communications, - Public Safety Communications"
+    },
+    "4407": {
+        "CIPFamily": "44",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Social Work.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 44.0701 - 44.0799.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Public Policy Analysis"
+    },
+    "4499": {
+        "CIPFamily": "44",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Public Administration and Social Service Professions, Other.",
+        "CIPDefinition": "Instructional content is defined in code 44.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Public Policy Analysis"
+    },
+    "4501": {
+        "CIPFamily": "45",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Social Sciences, General.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 45.0101 - 45.0102.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Public Policy Analysis"
+    },
+    "4502": {
+        "CIPFamily": "45",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Anthropology.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 45.0201 - 45.0299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Methodology, Measurement, and Statistics"
+    },
+    "4503": {
+        "CIPFamily": "45",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Archeology.",
+        "CIPDefinition": "Instructional content is defined in code 45.0301.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Cultural Anthropology, - Cultural and Social Anthropology, - Socio-Cultural Anthropology"
+    },
+    "4504": {
+        "CIPFamily": "45",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Criminology.",
+        "CIPDefinition": "Instructional content is defined in code 45.0401.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Archaeometry"
+    },
+    "4505": {
+        "CIPFamily": "45",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Demography and Population Studies.",
+        "CIPDefinition": "Instructional content is defined in code 45.0501.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Archaeometry"
+    },
+    "4506": {
+        "CIPFamily": "45",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Economics.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 45.0601 - 45.0699.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Archaeometry"
+    },
+    "4507": {
+        "CIPFamily": "45",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Geography and Cartography.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 45.0701 - 45.0799.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Game Theory"
+    },
+    "4509": {
+        "CIPFamily": "45",
+        "Action": "No substantive changes",
+        "TextChange": "yes",
+        "CIPTitle": "International Relations and National Security Studies.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 45.0901 - 45.0999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Geographic Information Systems (GIS), - Spatial Analysis, - Geomatics, - Remote Sensing"
+    },
+    "4510": {
+        "CIPFamily": "45",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Political Science and Government.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 45.1001 - 45.1099.",
+        "CrossReferences": "",
+        "Examples": "Examples: - National Security Studies, - Strategic Studies"
+    },
+    "4511": {
+        "CIPFamily": "45",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Sociology.",
+        "CIPDefinition": "Instructional content is defined in code 45.1101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - International Political Economy, - Political Economy and Government"
+    },
+    "4512": {
+        "CIPFamily": "45",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Urban Studies/Affairs.",
+        "CIPDefinition": "Instructional content is defined in code 45.1201.",
+        "CrossReferences": "",
+        "Examples": "Examples: - International Political Economy, - Political Economy and Government"
+    },
+    "4513": {
+        "CIPFamily": "45",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Sociology and Anthropology.",
+        "CIPDefinition": "Instructional content is defined in code 45.1301.",
+        "CrossReferences": "",
+        "Examples": "Examples: - International Political Economy, - Political Economy and Government"
+    },
+    "4514": {
+        "CIPFamily": "45",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Rural Sociology.",
+        "CIPDefinition": "Instructional content is defined in code 45.1401.",
+        "CrossReferences": "",
+        "Examples": "Examples: - International Political Economy, - Political Economy and Government"
+    },
+    "4599": {
+        "CIPFamily": "45",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Social Sciences, Other.",
+        "CIPDefinition": "Instructional content is defined in code 45.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Rural Development Studies"
+    },
+    "4600": {
+        "CIPFamily": "46",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Construction Trades, General.",
+        "CIPDefinition": "Instructional content is defined in code 46.0000.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Rural Development Studies"
+    },
+    "4601": {
+        "CIPFamily": "46",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Mason/Masonry.",
+        "CIPDefinition": "Instructional content is defined in code 46.0101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Construction Craft Worker"
+    },
+    "4602": {
+        "CIPFamily": "46",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Carpenters.",
+        "CIPDefinition": "Instructional content is defined in code 46.0201.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Bricklayer, - Brick and Stone Mason"
+    },
+    "4603": {
+        "CIPFamily": "46",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Electrical and Power Transmission Installers.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 46.0301 - 46.0399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - General Carpenter"
+    },
+    "4604": {
+        "CIPFamily": "46",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Building/Construction Finishing, Management, and Inspection.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 46.0401 - 46.0499.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Power Line Electrician, - Power Lineman, - Powerline Technician, - Powerline Technician (Operating)"
+    },
+    "4605": {
+        "CIPFamily": "46",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Plumbing and Related Water Supply Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 46.0502 - 46.0599.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Construction Technology"
+    },
+    "4699": {
+        "CIPFamily": "46",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Construction Trades, Other.",
+        "CIPDefinition": "Instructional content is defined in code 46.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Rig Technician, - Derrickhand, - Motorhand"
+    },
+    "4700": {
+        "CIPFamily": "47",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Mechanics and Repairers, General.",
+        "CIPDefinition": "Instructional content is defined in code 47.0000.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Elevator Constructor, - Manlift Technician"
+    },
+    "4701": {
+        "CIPFamily": "47",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Electrical/Electronics Maintenance and Repair Technology.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 47.0101 - 47.0199.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Elevator Constructor, - Manlift Technician"
+    },
+    "4702": {
+        "CIPFamily": "47",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Heating, Air Conditioning, Ventilation and Refrigeration Maintenance Technology/Technician (HAC, HACR, HVAC, HVACR).",
+        "CIPDefinition": "Instructional content is defined in code 47.0201.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Appliance Service Technician"
+    },
+    "4703": {
+        "CIPFamily": "47",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Heavy/Industrial Equipment Maintenance Technologies.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 47.0302 - 47.0399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Heating and Air Conditioning Maintenance Technology/Technician (HAC), - Heating, Air Conditioning, and Refrigeration Maintenance Technology/Technician (HACR), - Heating, Ventilation, and Air Conditioning Maintenance Technology/Technician (HVAC), - Heating, Air Conditioning, Ventilation, and Refrigeration Maintenance Technology/Technician (HVACR), - Oil Burner Mechanic, - Refrigeration Mechanic, - Refrigeration and Air Conditioning Mechanic, - Refrigeration and Air Conditioning Systems Mechanic"
+    },
+    "4704": {
+        "CIPFamily": "47",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Precision Systems Maintenance and Repair Technologies.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 47.0402 - 47.0499.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Industrial Plant Technician, - Industrial Equipment Technology, - Industrial Mechanic, - Millwright"
+    },
+    "4706": {
+        "CIPFamily": "47",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Vehicle Maintenance and Repair Technologies.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 47.0600 - 47.0699.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Sports Equipment Fabrication and Repair Technician"
+    },
+    "4799": {
+        "CIPFamily": "47",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Mechanic and Repair Technologies/Technicians, Other.",
+        "CIPDefinition": "Instructional content is defined in code 47.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Recreation Vehicle (RV) Mechanic, - Recreation Vehicle (RV) Service Technician, - Recreation Vehicle (RV) Technician"
+    },
+    "4800": {
+        "CIPFamily": "48",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Precision Production Trades, General.",
+        "CIPDefinition": "Instructional content is defined in code 48.0000.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Recreation Vehicle (RV) Mechanic, - Recreation Vehicle (RV) Service Technician, - Recreation Vehicle (RV) Technician"
+    },
+    "4803": {
+        "CIPFamily": "48",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Leatherworking and Upholstery.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 48.0303 - 48.0399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Recreation Vehicle (RV) Mechanic, - Recreation Vehicle (RV) Service Technician, - Recreation Vehicle (RV) Technician"
+    },
+    "4805": {
+        "CIPFamily": "48",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Precision Metal Working.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 48.0501 - 48.0599.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Recreation Vehicle (RV) Mechanic, - Recreation Vehicle (RV) Service Technician, - Recreation Vehicle (RV) Technician"
+    },
+    "4807": {
+        "CIPFamily": "48",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Woodworking.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 48.0701 - 48.0799.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Metal Fabricator, - Steel Fabricator, - Steel Fabricator (Fitter), - Structural Steel and Plate Fitter"
+    },
+    "4808": {
+        "CIPFamily": "48",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Boilermaking/Boilermaker.",
+        "CIPDefinition": "Instructional content is defined in code 48.0801.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Cabinetmaker, - Joiner"
+    },
+    "4899": {
+        "CIPFamily": "48",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Precision Production, Other.",
+        "CIPDefinition": "Instructional content is defined in code 48.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Construction Boilermaker"
+    },
+    "4901": {
+        "CIPFamily": "49",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Air Transportation.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 49.0101 - 49.0199.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Diamond Cutting, - Diamond Polishing, - Diamond Cutting and Polishing"
+    },
+    "4902": {
+        "CIPFamily": "49",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Ground Transportation.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 49.0202 - 49.0299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Diamond Cutting, - Diamond Polishing, - Diamond Cutting and Polishing"
+    },
+    "4903": {
+        "CIPFamily": "49",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Marine Transportation.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 49.0303 - 49.0399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Railway Operations, - Railroad Conductor, - Locomotive Engineer, - Brakeman/Brakewoman, - Railway Dispatcher, - Yardmaster, - Railroad Maintenance of Way Welding"
+    },
+    "4999": {
+        "CIPFamily": "49",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Transportation and Materials Moving, Other.",
+        "CIPDefinition": "Instructional content is defined in code 49.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Railway Operations, - Railroad Conductor, - Locomotive Engineer, - Brakeman/Brakewoman, - Railway Dispatcher, - Yardmaster, - Railroad Maintenance of Way Welding"
+    },
+    "5001": {
+        "CIPFamily": "50",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Visual and Performing Arts, General.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 50.0101 - 50.0102.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Railway Operations, - Railroad Conductor, - Locomotive Engineer, - Brakeman/Brakewoman, - Railway Dispatcher, - Yardmaster, - Railroad Maintenance of Way Welding"
+    },
+    "5002": {
+        "CIPFamily": "50",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Crafts/Craft Design, Folk Art and Artisanry.",
+        "CIPDefinition": "Instructional content is defined in code 50.0201.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Digital Art"
+    },
+    "5003": {
+        "CIPFamily": "50",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Dance.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 50.0301 - 50.0399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Digital Art"
+    },
+    "5004": {
+        "CIPFamily": "50",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Design and Applied Arts.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 50.0401 - 50.0499.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Dance Movement Studies"
+    },
+    "5005": {
+        "CIPFamily": "50",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Drama/Theatre Arts and Stagecraft.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 50.0501 - 50.0599.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Game Design, - Game Development"
+    },
+    "5006": {
+        "CIPFamily": "50",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Film/Video and Photographic Arts.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 50.0601 - 50.0699.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Dramatic Writing, - Writing for Screen and Television"
+    },
+    "5007": {
+        "CIPFamily": "50",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Fine and Studio Arts.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 50.0701 - 50.0799.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Cinema Production"
+    },
+    "5009": {
+        "CIPFamily": "50",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Music.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 50.0901 - 50.0999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Glass Making"
+    },
+    "5010": {
+        "CIPFamily": "50",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Arts, Entertainment,and Media Management.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 50.1001 - 50.1099.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Bass Drum, - Snare Drum, - Timpani, - Vibraphone"
+    },
+    "5099": {
+        "CIPFamily": "50",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Visual and Performing Arts, Other.",
+        "CIPDefinition": "Instructional content is defined in code 50.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Music Merchandising"
+    },
+    "5100": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Health Services/Allied Health/Health Sciences, General.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.0000 - 51.0001.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Music Merchandising"
+    },
+    "5101": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Chiropractic.",
+        "CIPDefinition": "Instructional content is defined in code 51.0101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Health and Wellness, - Health Promotion and Wellness, - Exercise Science and Wellness, - Wellness, Health Promotion and Injury Prevention"
+    },
+    "5102": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Communication Disorders Sciences and Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.0201 - 51.0299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Chiropractic (DC)"
+    },
+    "5104": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Dentistry.",
+        "CIPDefinition": "Instructional content is defined in code 51.0401.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Child Speech-Language Disorders, - Pre-Speech Language Pathology and Audiology"
+    },
+    "5105": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Advanced/Graduate Dentistry and Oral Sciences.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.0501 - 51.0599.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Dentistry (DDS, DMD)"
+    },
+    "5106": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Dental Support Services and Allied Professions.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.0601 - 51.0699.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Prosthodontics/Prosthodontology (Cert.), - Prosthodontics/Prosthodontology (MS), - Prosthodontics/Prosthodontology (PhD)"
+    },
+    "5107": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Health and Medical Administrative Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.0701 - 51.0799.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Prosthodontics/Prosthodontology (Cert.), - Prosthodontics/Prosthodontology (MS), - Prosthodontics/Prosthodontology (PhD)"
+    },
+    "5108": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Allied Health and Medical Assisting Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.0801 - 51.0899.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Clinical Research Trial Coordination, - Clinical Trials Research, - Clinical Trials Management"
+    },
+    "5109": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Allied Health Diagnostic, Intervention, and Treatment Professions.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.0901 - 51.0999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Lactation Education, - Lactation Counselor, - Lactation Management"
+    },
+    "5110": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "yes",
+        "CIPTitle": "Clinical/Medical Laboratory Science/Research and Allied Professions.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.1001 - 51.1099.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Mammography, - Breast Imaging and Mammography"
+    },
+    "5111": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Health/Medical Preparatory Programs.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.1101 - 51.1199.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Pharmaceutical Technician"
+    },
+    "5112": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Medicine.",
+        "CIPDefinition": "Instructional content is defined in code 51.1201.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Pharmaceutical Technician"
+    },
+    "5114": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Medical Clinical Sciences/Graduate Medical Studies.",
+        "CIPDefinition": "Instructional content is defined in code 51.1401.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Medicine (MD)"
+    },
+    "5115": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Mental and Social Health Services and Allied Professions.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.1501 - 51.1599.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Medical Scientist (MS), - Medical Scientist (PhD)"
+    },
+    "5116": {
+        "CIPFamily": "51",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Nursing.",
+        "CIPDefinition": "Deleted, Report under 51.38, 51.39",
+        "CrossReferences": "",
+        "Examples": "Examples: - Community Health Education"
+    },
+    "5117": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Optometry.",
+        "CIPDefinition": "Instructional content is defined in code 51.1701.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Community Health Education"
+    },
+    "5118": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Ophthalmic and Optometric Support Services and Allied Professions.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.1801 - 51.1899.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Optometry (OD)"
+    },
+    "5119": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Osteopathic Medicine/Osteopathy.",
+        "CIPDefinition": "Instructional content is defined in code 51.1901.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Optometry (OD)"
+    },
+    "5120": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Pharmacy, Pharmaceutical Sciences, and Administration.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.2001 - 51.2099.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Osteopathic Medicine/Osteopathy (DO)"
+    },
+    "5121": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Podiatric Medicine/Podiatry.",
+        "CIPDefinition": "Instructional content is defined in code 51.2101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Pharmaceutical Marketing"
+    },
+    "5122": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Public Health.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.2201 - 51.2299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Podiatric Medicine/Podiatry (DPM)"
+    },
+    "5123": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Rehabilitation and Therapeutic Professions.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.2301 - 51.2399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Behavioral Health, - Biobehavioral Health, - Health and Social Behavior, - Health Behavior"
+    },
+    "5124": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Veterinary Medicine.",
+        "CIPDefinition": "Instructional content is defined in code 51.2401.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Equine-Assisted Therapy"
+    },
+    "5125": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Veterinary Biomedical and Clinical Sciences.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.2501 - 51.2599.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Veterinary Medicine (DVM)"
+    },
+    "5126": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Health Aides/Attendants/Orderlies.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.2601 - 51.2699.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Veterinary Biomedical and Clinical Sciences, Other (Cert.), - Veterinary Biomedical and Clinical Sciences, Other (MS), - Veterinary Biomedical and Clinical Sciences, Other (PhD)"
+    },
+    "5127": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Medical Illustration and Informatics.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.2703 - 51.2799.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Veterinary Biomedical and Clinical Sciences, Other (Cert.), - Veterinary Biomedical and Clinical Sciences, Other (MS), - Veterinary Biomedical and Clinical Sciences, Other (PhD)"
+    },
+    "5131": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Dietetics and Clinical Nutrition Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.3101 - 51.3199.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Biomedical Informatics, - Health Informatics"
+    },
+    "5132": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Bioethics/Medical Ethics.",
+        "CIPDefinition": "Instructional content is defined in code 51.3201.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Dietetic Technician (DTR), - Registered Dietetic Technician (DTR)"
+    },
+    "5133": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Alternative and Complementary Medicine and Medical Systems.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.3300 - 51.3399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Dietetic Technician (DTR), - Registered Dietetic Technician (DTR)"
+    },
+    "5134": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Alternative and Complementary Medical Support Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.3401 - 51.3499.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Naturopathic Medicine/Naturopathy (ND)"
+    },
+    "5135": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Somatic Bodywork and Related Therapeutic Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.3501 - 51.3599.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Direct Entry Midwifery, - Licensed Midwife (LM), - Certified Professional Midwife (CPM)"
+    },
+    "5136": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Movement and Mind-Body Therapies and Education.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.3601 - 51.3699.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Direct Entry Midwifery, - Licensed Midwife (LM), - Certified Professional Midwife (CPM)"
+    },
+    "5137": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Energy and Biologically Based Therapies.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.3701 - 51.3799.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Direct Entry Midwifery, - Licensed Midwife (LM), - Certified Professional Midwife (CPM)"
+    },
+    "5138": {
+        "CIPFamily": "51",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Registered Nursing, Nursing Administration, Nursing Research and Clinical Nursing.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.3801 - 51.3899.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Direct Entry Midwifery, - Licensed Midwife (LM), - Certified Professional Midwife (CPM)"
+    },
+    "5139": {
+        "CIPFamily": "51",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Practical Nursing, Vocational Nursing and Nursing Assistants.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 51.3901 - 51.3999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Cardiology Nurse Practitioner, - Nephrology Nurse Practitioner"
+    },
+    "5199": {
+        "CIPFamily": "51",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Health Professions and Related Clinical Sciences, Other.",
+        "CIPDefinition": "Instructional content is defined in code 51.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Licensed Practical Nurse (LPN), - Licensed Vocational Nurse (LVN), - Licensed Practical/Vocational Nurse Training (Cert.), - Licensed Practical/Vocational Nurse Training (Dipl), - Licensed Practical/Vocational Nurse Training (AAS)"
+    },
+    "5201": {
+        "CIPFamily": "52",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Business/Commerce, General.",
+        "CIPDefinition": "Instructional content is defined in code 52.0101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Licensed Practical Nurse (LPN), - Licensed Vocational Nurse (LVN), - Licensed Practical/Vocational Nurse Training (Cert.), - Licensed Practical/Vocational Nurse Training (Dipl), - Licensed Practical/Vocational Nurse Training (AAS)"
+    },
+    "5202": {
+        "CIPFamily": "52",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Business Administration, Management and Operations.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 52.0201 - 52.0299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Licensed Practical Nurse (LPN), - Licensed Vocational Nurse (LVN), - Licensed Practical/Vocational Nurse Training (Cert.), - Licensed Practical/Vocational Nurse Training (Dipl), - Licensed Practical/Vocational Nurse Training (AAS)"
+    },
+    "5203": {
+        "CIPFamily": "52",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Accounting and Related Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 52.0301 - 52.0399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Leadership Studies"
+    },
+    "5204": {
+        "CIPFamily": "52",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Business Operations Support and Assistant Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 52.0401 - 52.0499.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Controllership"
+    },
+    "5205": {
+        "CIPFamily": "52",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Business/Corporate Communications.",
+        "CIPDefinition": "Instructional content is defined in code 52.0501.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Controllership"
+    },
+    "5206": {
+        "CIPFamily": "52",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Business/Managerial Economics.",
+        "CIPDefinition": "Instructional content is defined in code 52.0601.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Controllership"
+    },
+    "5207": {
+        "CIPFamily": "52",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Entrepreneurial and Small Business Operations.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 52.0701 - 52.0799.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Controllership"
+    },
+    "5208": {
+        "CIPFamily": "52",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Finance and Financial Management Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 52.0801 - 52.0899.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Controllership"
+    },
+    "5209": {
+        "CIPFamily": "52",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Hospitality Administration/Management.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 52.0901 - 52.0999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Mortgage Broker"
+    },
+    "5210": {
+        "CIPFamily": "52",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Human Resources Management and Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 52.1001 - 52.1099.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Casino Management, - Gaming and Casino Management, - Hospitality and Casino Management"
+    },
+    "5211": {
+        "CIPFamily": "52",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "International Business.",
+        "CIPDefinition": "Instructional content is defined in code 52.1101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Casino Management, - Gaming and Casino Management, - Hospitality and Casino Management"
+    },
+    "5212": {
+        "CIPFamily": "52",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Management Information Systems and Services.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 52.1201 - 52.1299.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Global Business, - Global Commerce, - Global Management"
+    },
+    "5213": {
+        "CIPFamily": "52",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Management Sciences and Quantitative Methods.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 52.1301 - 52.1399.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Information Management, - Chief Information Officer Training"
+    },
+    "5214": {
+        "CIPFamily": "52",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Marketing.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 52.1401 - 52.1499.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Business Intelligence, - Competitive Intelligence"
+    },
+    "5215": {
+        "CIPFamily": "52",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Real Estate.",
+        "CIPDefinition": "Instructional content is defined in code 52.1501.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Business Intelligence, - Competitive Intelligence"
+    },
+    "5216": {
+        "CIPFamily": "52",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Taxation.",
+        "CIPDefinition": "Instructional content is defined in code 52.1601.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Property Management"
+    },
+    "5217": {
+        "CIPFamily": "52",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Insurance.",
+        "CIPDefinition": "Instructional content is defined in code 52.1701.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Property Management"
+    },
+    "5218": {
+        "CIPFamily": "52",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "General Sales, Merchandising and Related Marketing Operations.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 52.1801 - 52.1899.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Property Management"
+    },
+    "5219": {
+        "CIPFamily": "52",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Specialized Sales, Merchandising and  Marketing Operations.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 52.1901 - 52.1999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Property Management"
+    },
+    "5220": {
+        "CIPFamily": "52",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Construction Management.",
+        "CIPDefinition": "Instructional content is defined in code 52.2001.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Industrial Marketing, - Scientific and Medical Marketing"
+    },
+    "5221": {
+        "CIPFamily": "52",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Telecommunications Management.",
+        "CIPDefinition": "Instructional content is defined in code 52.2101.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Industrial Marketing, - Scientific and Medical Marketing"
+    },
+    "5299": {
+        "CIPFamily": "52",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Business, Management, Marketing, and Related Support Services, Other.",
+        "CIPDefinition": "Instructional content is defined in code 52.9999.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Industrial Marketing, - Scientific and Medical Marketing"
+    },
+    "5301": {
+        "CIPFamily": "53",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "High School/Secondary Diploma Programs.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 53.0101 - 53.0199. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Industrial Marketing, - Scientific and Medical Marketing"
+    },
+    "5302": {
+        "CIPFamily": "53",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "High School/Secondary Certificate Programs.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 53.0201 - 53.0299. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Industrial Marketing, - Scientific and Medical Marketing"
+    },
+    "5401": {
+        "CIPFamily": "54",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "History.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 54.0101 - 54.0199.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Industrial Marketing, - Scientific and Medical Marketing"
+    },
+    "6001": {
+        "CIPFamily": "60",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Dental Residency Programs.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 60.0101 - 60.0199. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Air Force History, - Naval History, - Military History (Armies)"
+    },
+    "6002": {
+        "CIPFamily": "60",
+        "Action": "Deleted",
+        "TextChange": "no",
+        "CIPTitle": "Medical Residency Programs.",
+        "CIPDefinition": "Deleted, Report under 60.04, 60.05",
+        "CrossReferences": "",
+        "Examples": "Examples: - Periodontics Residency Program"
+    },
+    "6003": {
+        "CIPFamily": "60",
+        "Action": "No substantive changes",
+        "TextChange": "no",
+        "CIPTitle": "Veterinary Residency Programs.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 60.0301 - 60.0399. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Periodontics Residency Program"
+    },
+    "6004": {
+        "CIPFamily": "60",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Medical Residency Programs - General Certificates.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 60.0401 - 60.0499. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Periodontics Residency Program"
+    },
+    "6005": {
+        "CIPFamily": "60",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Medical Residency Programs - Subspecialty Certificates.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 60.0501 - 60.0599. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Public Health Medicine Residency Program, - Preventive Medicine Residency Program"
+    },
+    "6006": {
+        "CIPFamily": "60",
+        "Action": "New",
+        "TextChange": "no",
+        "CIPTitle": "Podiatric Medicine Residency Programs.",
+        "CIPDefinition": "Instructional content for this group of programs is defined in codes 60.0601 - 60.0602. These CIP codes are not valid for IPEDS reporting.",
+        "CrossReferences": "",
+        "Examples": "Examples: - Critical Care Surgery Residency Program"
+    }
+}

@@ -36,8 +36,8 @@ def make_json(csvFilePath, jsonFilePath):
  
 # Decide the two file paths according to your
 # computer system
-csvFilePath = r'./mlmodels/CIPCode2010.csv'
-jsonFilePath = r'./mlmodels/CIP.json'
+csvFilePath = r'./CIPCode2010.csv'
+jsonFilePath = r'../mlbackend/src/utils/CIP.json'
  
 # Call the make_json function
 make_json(csvFilePath, jsonFilePath)
