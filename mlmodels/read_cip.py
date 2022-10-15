@@ -20,7 +20,8 @@ def make_json(csvFilePath, jsonFilePath):
              
             # Assuming a column named 'CIPCode' to
             # be the primary key
-            key = float(formatString(rows['CIPCode'])) * 100
+            key = float(formatString(rows['CIPCode'])) * 1000
+            key = str(key).split(".")[0]
 
             del rows['CIPCode']
             rows["CIPFamily"] = formatString(rows["CIPFamily"])
