@@ -2,7 +2,7 @@ import csv
 import json
  
 def formatString(string) -> str:
-    return string.replace("=", "").replace("\"", "")
+    return string.replace("=", "").replace("\"", "").replace(".", "")
 # Function to convert a CSV to JSON
 # Takes the file paths as arguments
 def make_json(csvFilePath, jsonFilePath):
@@ -20,12 +20,12 @@ def make_json(csvFilePath, jsonFilePath):
              
             # Assuming a column named 'CIPCode' to
             # be the primary key
-            key = float(formatString(rows['CIPCode'])) * 1000
-            key = str(key).split(".")[0]
-
-            del rows['CIPCode']
-            rows["CIPFamily"] = formatString(rows["CIPFamily"])
-            data[key] = rows
+            cip_4 = formatString(rows['CIPCode'])
+            if len(cip_4) == 4:
+                key = cip_4
+                del rows['CIPCode']
+                rows["CIPFamily"] = formatString(rows["CIPFamily"])
+                data[key] = rows
  
     # Open a json writer, and use the json.dumps()
     # function to dump data
