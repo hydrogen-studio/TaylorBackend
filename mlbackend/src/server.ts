@@ -17,6 +17,7 @@ import { getRandomInt } from "./utils/helpers";
 import handleError from "./middleware/error-handler.middleware";
 
 import * as CIP from './utils/CIP.json';
+import * as stringSimilarity from 'string-similarity';
 
 dotenv.config();
 const Client = require("node-rest-client").Client;
@@ -54,7 +55,7 @@ app.get("/highschool-guide", guidesController.highSchoolGuide);
 
 app.get("/collegecore-plus-guide", guidesController.collegeCorePlusGuide);
 
-app.post("/api/v2/college_core_chatbot", function (req, res) {
+app.post("/api/v2/college_core_chatbot", async function (req, res) {
   console.log(req.body);
 
   const data : messageStructure = req.body;
@@ -119,7 +120,7 @@ app.post("/api/v2/college_core_chatbot", function (req, res) {
 
     
     if(data.context == "search_by_major"){
-      respondData = searchCollege(botParamsValue, data)
+      respondData = await searchCollege(botParamsValue, data)
     }
 
 
@@ -130,7 +131,7 @@ app.post("/api/v2/college_core_chatbot", function (req, res) {
 
 
 
-function searchCollege(botParamsValue: string, data: messageStructure): responseStructure {
+async function searchCollege(botParamsValue: string, data: messageStructure): Promise<responseStructure> {
   let params = botParamsValue.split(" | ")
 
   const ithk = {
@@ -151,44 +152,49 @@ function searchCollege(botParamsValue: string, data: messageStructure): response
     "fields": fields.join(","),
     "latest.school.state": params[0].toUpperCase(),
     "latest.programs.cip_4_digit.credential.title": "Bachelor’s Degree",
+    "latest.programs.cip_4_digit.code": searchMajor(params[1]).join(","),
     "per_page": "1"
   }
 
   let majorStoring:string[] = [];
-  axios.default.get('https://api.data.gov/ed/collegescorecard/v1/schools', {
+  let reqRes = await axios.default.get('https://api.data.gov/ed/collegescorecard/v1/schools', {
     params: param,
     headers: { "Content-Type": "application/json" }
-  }).then(data => {
-    let dataRes = data.data;
+  })
+    let dataRes = reqRes.data;
     if(!(dataRes.results.length == 0)) {
       let majors = dataRes.results[0]["latest.programs.cip_4_digit"]
       for(let i in majors){
-        let current = majors[i];
-        if(searchMajor(current.title.toUpperCase(), params[1].toUpperCase())){
-          majorStoring.push(dataRes.results[0]["latest.school.name"])
-        }
+        majorStoring.push(dataRes.results[0]["latest.school.name"])
       }
 
       ithk["msg"] = majorStoring.join(",")
-      console.log(ithk)
+      // console.log(ithk)
       return ithk
     }
     
-  }).catch(e => {
-    console.error(e)
-  });
-  console.log("Old")
-  console.log(ithk)
+  console.log("dsasfdasdaf" + JSON.stringify(ithk))
   
   return ithk;
 }
 
 
-function searchMajor(collegeValue:string, userValue:string):boolean{
-  let search = collegeValue.search(userValue)
+function searchMajor(input:string):string[]{
+  var parse = JSON.parse(JSON.stringify(CIP))
+  let res:string[] = []
+  Object.keys(parse).forEach(key => {
+    var similarity = stringSimilarity.compareTwoStrings(parse[key]['CIPTitle'], input);
+    // console.log(similarity)
+    if(similarity > 0.6){
+      res.push(key)
+    }
 
-  return search != -1
+  })
+
+  return res;
 }
+
+console.log(searchMajor("Computer Science"))
 
 app.use(handleError);
 
