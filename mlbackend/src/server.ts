@@ -153,7 +153,7 @@ async function searchCollege(botParamsValue: string, data: messageStructure): Pr
     "latest.school.state": params[0].toUpperCase(),
     "latest.programs.cip_4_digit.credential.title": "Bachelor’s Degree",
     "latest.programs.cip_4_digit.code": searchMajor(params[1]).join(","),
-    "per_page": "1"
+    "per_page": "2"
   }
 
   let majorStoring:string[] = [];
@@ -163,10 +163,11 @@ async function searchCollege(botParamsValue: string, data: messageStructure): Pr
   })
     let dataRes = reqRes.data;
     if(!(dataRes.results.length == 0)) {
-      let majors = dataRes.results[0]["latest.programs.cip_4_digit"]
-      for(let i in majors){
-        majorStoring.push(dataRes.results[0]["latest.school.name"])
+      for(var i in dataRes.results){
+        majorStoring.push(dataRes.results[i]["latest.school.name"])
       }
+      
+      
 
       ithk["msg"] = majorStoring.join(",")
       // console.log(ithk)
