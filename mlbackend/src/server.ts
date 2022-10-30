@@ -118,17 +118,18 @@ app.post("/api/v2/college_core_chatbot", async function (req, res) {
       botParams: botParamsValue,
     };
 
-    
-    if(data.context == "search_by_major"){
+    // search college
+    if(data.context == "search_by_size"){
       respondData = await searchCollege(botParamsValue, data)
     }
+
+
 
 
 
     res.send(respondData);
   }
 });
-
 
 
 async function searchCollege(botParamsValue: string, data: messageStructure): Promise<responseStructure> {
@@ -143,7 +144,7 @@ async function searchCollege(botParamsValue: string, data: messageStructure): Pr
 
   const apiKey = process.env.COLLEGE_SEARCH_API_KEY
   // console.log(apiKey)
-  let fields:string[] = ["latest.programs.cip_4_digit", "latest.school"]
+  let fields:string[] = ["latest.programs.cip_4_digit", "latest.school", "latest.student.size"]
 
   console.log(params)
   
@@ -153,6 +154,7 @@ async function searchCollege(botParamsValue: string, data: messageStructure): Pr
     "latest.school.state": params[0].toUpperCase(),
     "latest.programs.cip_4_digit.credential.title": "Bachelor’s Degree",
     "latest.programs.cip_4_digit.code": searchMajor(params[1]).join(","),
+    "latest.student.size__range": (parseInt(params[2]) - 1500).toString() + ".." + (parseInt(params[2]) + 1500).toString(),
     "per_page": "2"
   }
 
@@ -162,6 +164,7 @@ async function searchCollege(botParamsValue: string, data: messageStructure): Pr
     headers: { "Content-Type": "application/json" }
   })
     let dataRes = reqRes.data;
+    console.log(dataRes)
     if(!(dataRes.results.length == 0)) {
       for(var i in dataRes.results){
         majorStoring.push(dataRes.results[i]["latest.school.name"])
@@ -174,7 +177,7 @@ async function searchCollege(botParamsValue: string, data: messageStructure): Pr
       return ithk
     }
     
-  console.log("dsasfdasdaf" + JSON.stringify(ithk))
+
   
   return ithk;
 }
@@ -194,8 +197,6 @@ function searchMajor(input:string):string[]{
 
   return res;
 }
-
-console.log(searchMajor("Computer Science"))
 
 app.use(handleError);
 

@@ -53,9 +53,9 @@
       "patterns": [],
       "static": false,
       "responses": [
-        "What major do you want to study?"
+        "What is the desired student size in the college(e.g. 5000)?"
       ],
-      "context": [""]
+      "context": ["search_by_size"]
     },
     {
       "tag": "collegeChoice",
@@ -87,11 +87,15 @@
       "context": [""]
     },
     {
-      "tag": "search_by_",
-      "patterns": [],
+      "tag": "search_by_size",
+      "patterns": [
+        "What mid size colleges can I get into?",
+        "What large size colleges can I get into?",
+        "What small size colleges can I get into?"
+      ],
       "static": false,
       "responses": [
-        "What is your targeted ranking of your college?"
+        "Please send us your desired student size(e.g. 5000)."
       ],
       "context": [""]
     }
