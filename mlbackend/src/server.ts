@@ -5,6 +5,7 @@ import * as fs from "fs";
 import * as dotenv from "dotenv";
 import * as path from "path";
 import * as axios from "axios";
+import Format = require("string-format");
 
 // Pages
 import * as homeController from "./controllers/home";
@@ -119,7 +120,7 @@ app.post("/api/v2/college_core_chatbot", async function (req, res) {
     };
 
     // search college
-    if(data.context == "search_by_size"){
+    if(data.context == "search_by_tuition"){
       respondData = await searchCollege(botParamsValue, data)
     }
 
@@ -144,7 +145,7 @@ async function searchCollege(botParamsValue: string, data: messageStructure): Pr
 
   const apiKey = process.env.COLLEGE_SEARCH_API_KEY
   // console.log(apiKey)
-  let fields:string[] = ["latest.programs.cip_4_digit", "latest.school", "latest.student.size"]
+  let fields:string[] = ["latest.programs.cip_4_digit", "latest.school", "latest.student.size", "latest.cost.avg_net_price"]
 
   console.log(params)
   
@@ -155,6 +156,7 @@ async function searchCollege(botParamsValue: string, data: messageStructure): Pr
     "latest.programs.cip_4_digit.credential.title": "Bachelor’s Degree",
     "latest.programs.cip_4_digit.code": searchMajor(params[1]).join(","),
     "latest.student.size__range": (parseInt(params[2]) - 1500).toString() + ".." + (parseInt(params[2]) + 1500).toString(),
+    "latest.cost.avg_net_price.overall__range": (parseInt(params[3]) - 5000).toString() + ".." + (parseInt(params[3]) + 5000).toString(),
     "per_page": "2"
   }
 
@@ -166,13 +168,19 @@ async function searchCollege(botParamsValue: string, data: messageStructure): Pr
     let dataRes = reqRes.data;
     console.log(dataRes)
     if(!(dataRes.results.length == 0)) {
+      Format.extend(String.prototype, {});
+
+    const fmt = Format.create({
+      moneyFormat: (s: string) => s.toLocaleLowerCase()
+    });
       for(var i in dataRes.results){
-        majorStoring.push(dataRes.results[i]["latest.school.name"])
+        let string = fmt("{name}: ${tuition} per year", { name: dataRes.results[i]["latest.school.name"], tuition: dataRes.results[i]["latest.cost.avg_net_price.overall"] });
+        majorStoring.push(string)
       }
       
       
 
-      ithk["msg"] = majorStoring.join(",")
+      ithk["msg"] = majorStoring.join("\n")
       // console.log(ithk)
       return ithk
     }

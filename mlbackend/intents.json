@@ -95,7 +95,20 @@
       ],
       "static": false,
       "responses": [
-        "Please send us your desired student size(e.g. 5000)."
+        "What is your desired tuition cost?"
+      ],
+      "context": ["search_by_tuition"]
+    },
+    {
+      "tag": "search_by_tuition",
+      "patterns": [
+        "What mid size colleges can I get into?",
+        "What large size colleges can I get into?",
+        "What small size colleges can I get into?"
+      ],
+      "static": false,
+      "responses": [
+        ""
       ],
       "context": [""]
     }
