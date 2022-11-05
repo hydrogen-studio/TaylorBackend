@@ -20,7 +20,7 @@
         "Hello! How can I help you?",
         "Hello! My name is Taylor, how can I help you?",
         "How are you?",
-        "Hello! By The Way, you could listen to Taylor Swift in your freetime!"
+        "Hello! By The Way, you could listen to Taylor Swift in your freetime(very good advice)!"
       ],
       "context": [""]
     },
@@ -31,10 +31,10 @@
         "How do I search for a college",
         "which college should I apply to?",
         "what are the colleges that are test-optional?",
-        "what colleges have a major of Computer Science?"
+        "what colleges have the major I want to study?"
       ],
       "responses": [
-        "Please provide the hospital location"
+        "Please provide the abbreviation of the state the college is in(e.g. CA)."
       ],
       "static": false,
       "context": ["search_by_location"]
@@ -44,7 +44,7 @@
       "patterns": [],
       "static": false,
       "responses": [
-        "What state do you want to college?"
+        "What major do you want to study?"
       ],
       "context": ["search_by_major"]
     },
@@ -53,9 +53,9 @@
       "patterns": [],
       "static": false,
       "responses": [
-        "What major do you want to study?"
+        "What is the desired student size in the college(e.g. 5000)?"
       ],
-      "context": [""]
+      "context": ["search_by_size"]
     },
     {
       "tag": "collegeChoice",
@@ -87,11 +87,28 @@
       "context": [""]
     },
     {
-      "tag": "search_by_",
-      "patterns": [],
+      "tag": "search_by_size",
+      "patterns": [
+        "What mid size colleges can I get into?",
+        "What large size colleges can I get into?",
+        "What small size colleges can I get into?"
+      ],
       "static": false,
       "responses": [
-        "What is your targeted ranking of your college?"
+        "What is your desired tuition cost?"
+      ],
+      "context": ["search_by_tuition"]
+    },
+    {
+      "tag": "search_by_tuition",
+      "patterns": [
+        "What mid size colleges can I get into?",
+        "What large size colleges can I get into?",
+        "What small size colleges can I get into?"
+      ],
+      "static": false,
+      "responses": [
+        ""
       ],
       "context": [""]
     }

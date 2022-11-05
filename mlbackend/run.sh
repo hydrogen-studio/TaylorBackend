@@ -10,5 +10,8 @@ printf "Setting up the static files...\n"
 cp -r ./src/static/ ./dist/server/
 wait
 
+printf "Setting up the template files...\n"
+cp -r ./src/templates/ ./dist/templates/
+
 printf "Starting server...\n"
 node ./dist/server/server.js

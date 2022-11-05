@@ -12,6 +12,9 @@ import * as homeController from "./controllers/home";
 import * as policiesController from "./controllers/policies";
 import * as guidesController from "./controllers/guides";
 
+// Templates
+import { collegeTemplate } from "./templates/collegeSearch";
+
 
 import { messageStructure, intentStructure, responseStructure } from "./utils/types";
 import { getRandomInt } from "./utils/helpers";
@@ -59,7 +62,7 @@ app.get("/collegecore-plus-guide", guidesController.collegeCorePlusGuide);
 app.post("/api/v2/college_core_chatbot", async function (req, res) {
   console.log(req.body);
 
-  const data : messageStructure = req.body;
+  const data: messageStructure = req.body;
   if (data.context === undefined || data.context === "") {
     // out of context
     let args = {
@@ -112,7 +115,7 @@ app.post("/api/v2/college_core_chatbot", async function (req, res) {
       botParamsValue = data.msg;
     }
 
-    let respondData : responseStructure = {
+    let respondData: responseStructure = {
       intent: data.context,
       msg: responseMsg,
       context: responseContext,
@@ -120,7 +123,7 @@ app.post("/api/v2/college_core_chatbot", async function (req, res) {
     };
 
     // search college
-    if(data.context == "search_by_tuition"){
+    if (data.context == "search_by_tuition") {
       respondData = await searchCollege(botParamsValue, data)
     }
 
@@ -138,19 +141,19 @@ async function searchCollege(botParamsValue: string, data: messageStructure): Pr
 
   const ithk = {
     intent: data.context,
-    msg: "Seaching",
+    msg: "I cannot find the college you are looking for based on your inputs. Please try again.",
     context: "",
     botParams: botParamsValue,
   }
 
   const apiKey = process.env.COLLEGE_SEARCH_API_KEY
   // console.log(apiKey)
-  let fields:string[] = ["latest.programs.cip_4_digit", "latest.school", "latest.student.size", "latest.cost.avg_net_price"]
+  let fields: string[] = ["latest.programs.cip_4_digit", "latest.school", "latest.student.size", "latest.cost.avg_net_price"]
 
   console.log(params)
-  
-  let param =  {
-    "api_key" : apiKey,
+
+  let param = {
+    "api_key": apiKey,
     "fields": fields.join(","),
     "latest.school.state": params[0].toUpperCase(),
     "latest.programs.cip_4_digit.credential.title": "Bachelor’s Degree",
@@ -160,44 +163,49 @@ async function searchCollege(botParamsValue: string, data: messageStructure): Pr
     "per_page": "2"
   }
 
-  let majorStoring:string[] = [];
+  let majorStoring: string[] = [];
   let reqRes = await axios.default.get('https://api.data.gov/ed/collegescorecard/v1/schools', {
     params: param,
     headers: { "Content-Type": "application/json" }
   })
-    let dataRes = reqRes.data;
-    console.log(dataRes)
-    if(!(dataRes.results.length == 0)) {
-      Format.extend(String.prototype, {});
+  let dataRes = reqRes.data;
+  console.log(dataRes)
+  if (!(dataRes.results.length == 0)) {
+    Format.extend(String.prototype, {});
 
     const fmt = Format.create({
       moneyFormat: (s: string) => s.toLocaleLowerCase()
     });
-      for(var i in dataRes.results){
-        let string = fmt("{name}: ${tuition} per year", { name: dataRes.results[i]["latest.school.name"], tuition: dataRes.results[i]["latest.cost.avg_net_price.overall"] });
-        majorStoring.push(string)
+    for (var i in dataRes.results) {
+      let payload = { 
+        student: dataRes.results[i]["latest.student.size"],
+        name: dataRes.results[i]["latest.school.name"],
+        tuition: dataRes.results[i]["latest.cost.avg_net_price.overall"]
       }
-      
-      
-
-      ithk["msg"] = majorStoring.join("\n")
-      // console.log(ithk)
-      return ithk
+      let string = fmt(collegeTemplate, payload);
+      majorStoring.push(string)
     }
-    
 
-  
+
+    let result = majorStoring.join("\n\n")
+    ithk["msg"] = result
+    // console.log(ithk)
+    return ithk
+  }
+
+
+
   return ithk;
 }
 
 
-function searchMajor(input:string):string[]{
+function searchMajor(input: string): string[] {
   var parse = JSON.parse(JSON.stringify(CIP))
-  let res:string[] = []
+  let res: string[] = []
   Object.keys(parse).forEach(key => {
     var similarity = stringSimilarity.compareTwoStrings(parse[key]['CIPTitle'], input);
     // console.log(similarity)
-    if(similarity > 0.6){
+    if (similarity > 0.6) {
       res.push(key)
     }
 

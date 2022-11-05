@@ -20,7 +20,7 @@
         "Hello! How can I help you?",
         "Hello! My name is Taylor, how can I help you?",
         "How are you?",
-        "Hello! By The Way, you could listen to Taylor Swift in your freetime!"
+        "Hello! By The Way, you could listen to Taylor Swift in your freetime(very good advice)!"
       ],
       "context": [""]
     },
@@ -31,7 +31,7 @@
         "How do I search for a college",
         "which college should I apply to?",
         "what are the colleges that are test-optional?",
-        "what colleges have a major of Computer Science?"
+        "what colleges have the major I want to study?"
       ],
       "responses": [
         "Please provide the abbreviation of the state the college is in(e.g. CA)."
